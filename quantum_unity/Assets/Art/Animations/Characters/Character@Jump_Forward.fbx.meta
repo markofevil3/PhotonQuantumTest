@@ -1,0 +1,1865 @@
+fileFormatVersion: 2
+guid: 69a2a95e3b9ff29499d4835b7e27eb0a
+timeCreated: 1519928245
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BasicWeapon_Mesh
+    100002: Bazooka_Mesh
+    100004: Boy
+    100006: Boy_Eyes01
+    100008: Boy_Eyes02
+    100010: Boy_Hair
+    100012: Character
+    100014: //RootNode
+    100016: Character_ExtraNodes
+    100018: Character_EyeAimC
+    100020: Character_EyeAimCG
+    100022: Character_HeadC
+    100024: Character_HeadC_OrientLctr
+    100026: Character_HeadCG
+    100028: Character_HeadCG2
+    100030: Character_HeadFKC
+    100032: Character_HeadFKCG
+    100034: Character_HeadJ
+    100036: Character_HeadTipJ
+    100038: Character_JawC
+    100040: Character_JawCG
+    100042: Character_JawJ
+    100044: Character_JawTipJ
+    100046: Character_lAnkleFKC
+    100048: Character_lAnkleFKCG
+    100050: Character_lAnkleFKtoIKLctr
+    100052: Character_lAnkleFKtoIKLctrG
+    100054: Character_lAnkleIKLockLctr
+    100056: Character_lAnkleIKtoFKLctr
+    100058: Character_lAnkleIKtoFKLctrG
+    100060: Character_lAnkleJ
+    100062: Character_lAnkleJFK
+    100064: Character_lAnkleJFKG1
+    100066: Character_lAnkleJFKG2
+    100068: Character_lAnkleJIK
+    100070: Character_lArmIKFKG
+    100072: Character_lArmIKHandle
+    100074: Character_lArmLengthEndLctr
+    100076: Character_lArmLengthOriginLctr
+    100078: Character_lArmSwitchC
+    100080: Character_lArmSwitchCG
+    100082: Character_lBallFKC
+    100084: Character_lBallFKCG
+    100086: Character_lBallIKHandle
+    100088: Character_lBallJ
+    100090: Character_lBallJFK
+    100092: Character_lBallJIK
+    100094: Character_lBallSwivel
+    100096: Character_lClavicleC
+    100098: Character_lClavicleCG
+    100100: Character_lClavicleCG2
+    100102: Character_lClavicleJ
+    100104: Character_lElbowFKC
+    100106: Character_lElbowFKCG
+    100108: Character_lElbowIKAimConnectorLctr
+    100110: Character_lElbowIKC
+    100112: Character_lElbowIKC_TargetLctr
+    100114: Character_lElbowIKCG
+    100116: Character_lElbowIKConnectorCX
+    100118: Character_lElbowIKLockLctr
+    100120: Character_lElbowIKTargetConnectorLctr
+    100122: Character_lElbowIKtoFKAimLctr
+    100124: Character_lElbowJ
+    100126: Character_lElbowJFK
+    100128: Character_lElbowJFKG1
+    100130: Character_lElbowJFKG2
+    100132: Character_lElbowJIK
+    100134: Character_lEyeAimAimConnectorLctr
+    100136: Character_lEyeAimC
+    100138: Character_lEyeAimConnectorCX
+    100140: Character_lEyeAimTargetConnectorLctr
+    100142: Character_lEyeJ
+    100144: Character_lFinger1J1
+    100146: Character_lFinger1J1C
+    100148: Character_lFinger1J1CG
+    100150: Character_lFinger1J1CRotG
+    100152: Character_lFinger1J2
+    100154: Character_lFinger1J2C
+    100156: Character_lFinger1J2CG
+    100158: Character_lFinger1J2CRotG
+    100160: Character_lFinger1J3
+    100162: Character_lFinger1J3C
+    100164: Character_lFinger1J3CG
+    100166: Character_lFinger1J3CRotG
+    100168: Character_lFinger1JTip
+    100170: Character_lFinger2J1
+    100172: Character_lFinger2J1C
+    100174: Character_lFinger2J1CG
+    100176: Character_lFinger2J1CRotG
+    100178: Character_lFinger2J2
+    100180: Character_lFinger2J2C
+    100182: Character_lFinger2J2CG
+    100184: Character_lFinger2J2CRotG
+    100186: Character_lFinger2J3
+    100188: Character_lFinger2J3C
+    100190: Character_lFinger2J3CG
+    100192: Character_lFinger2J3CRotG
+    100194: Character_lFinger2JTip
+    100196: Character_lFootBallPivot
+    100198: Character_lFootHeelPivot
+    100200: Character_lFootIKC
+    100202: Character_lFootIKCG
+    100204: Character_lFootInTilt
+    100206: Character_lFootOutTilt
+    100208: Character_lFootToePivot
+    100210: Character_lForearmJ
+    100212: Character_lHipFKC
+    100214: Character_lHipFKCG
+    100216: Character_lHipFKtoIKOrientLctr
+    100218: Character_lHipIKLockLctr
+    100220: Character_lHipJ
+    100222: Character_lHipJFK
+    100224: Character_lHipJIK
+    100226: Character_lKneeFKC
+    100228: Character_lKneeFKCG
+    100230: Character_lKneeIKAimConnectorLctr
+    100232: Character_lKneeIKC
+    100234: Character_lKneeIKC_TargetLctr
+    100236: Character_lKneeIKCG
+    100238: Character_lKneeIKConnectorCX
+    100240: Character_lKneeIKLockLctr
+    100242: Character_lKneeIKTargetConnectorLctr
+    100244: Character_lKneeIKtoFKAimLctr
+    100246: Character_lKneeJ
+    100248: Character_lKneeJFK
+    100250: Character_lKneeJFKG1
+    100252: Character_lKneeJFKG2
+    100254: Character_lKneeJIK
+    100256: Character_lKneeTargetLockLctr
+    100258: Character_lLegIKFKG
+    100260: Character_lLegIKHandle
+    100262: Character_lLegLengthEndLctr
+    100264: Character_lLegLengthOriginLctr
+    100266: Character_lLegSwitchC
+    100268: Character_lLegSwitchCG
+    100270: Character_lPalmC
+    100272: Character_lPalmCG
+    100274: Character_lPalmJ
+    100276: Character_lShoulderFKC
+    100278: Character_lShoulderFKCG
+    100280: Character_lShoulderFKCG2
+    100282: Character_lShoulderFKtoIKOrientLctr
+    100284: Character_lShoulderIKLockLctr
+    100286: Character_lShoulderJ
+    100288: Character_lShoulderJFK
+    100290: Character_lShoulderJIK
+    100292: Character_lThumbJ1
+    100294: Character_lThumbJ1C
+    100296: Character_lThumbJ1CG
+    100298: Character_lThumbJ1CRotG
+    100300: Character_lThumbJ2
+    100302: Character_lThumbJ2C
+    100304: Character_lThumbJ2CG
+    100306: Character_lThumbJ2CRotG
+    100308: Character_lThumbJ3
+    100310: Character_lThumbJ3C
+    100312: Character_lThumbJ3CG
+    100314: Character_lThumbJ3CRotG
+    100316: Character_lThumbJTip
+    100318: Character_lToeIKC
+    100320: Character_lToeIKCG
+    100322: Character_lToeIKHandle
+    100324: Character_lToeJ
+    100326: Character_lToeJFK
+    100328: Character_lToeJIK
+    100330: Character_lWristFKC
+    100332: Character_lWristFKCG
+    100334: Character_lWristFKtoIKLctr
+    100336: Character_lWristIKC
+    100338: Character_lWristIKCG
+    100340: Character_lWristIKLockLctr
+    100342: Character_lWristIKtoFKLctr
+    100344: Character_lWristJ
+    100346: Character_lWristJDummy
+    100348: Character_lWristJFK
+    100350: Character_lWristJFKG1
+    100352: Character_lWristJFKG2
+    100354: Character_lWristJG1
+    100356: Character_lWristJG2
+    100358: Character_lWristJIK
+    100360: Character_lWristJIKProxy
+    100362: Character_lWristJIKProxyG1
+    100364: Character_lWristJIKProxyG2
+    100366: Character_MainC
+    100368: Character_MainHipC
+    100370: Character_MainHipCG
+    100372: Character_Neck01CurveC
+    100374: Character_Neck01CurveCG
+    100376: Character_Neck01CurveLctr
+    100378: Character_Neck01CurveLctrG
+    100380: Character_Neck01F
+    100382: Character_Neck01FKC
+    100384: Character_Neck01FKCG
+    100386: Character_Neck01FKCG_OrientLctr
+    100388: Character_Neck01J
+    100390: Character_Neck_hairSystemFollicles
+    100392: Character_Neck_MidAimLctr
+    100394: Character_Neck_MidTargetLctr
+    100396: Character_Neck_MidTargetLctrG
+    100398: Character_Neck_ribbonBlend
+    100400: Character_Neck_ribbonBlend_lCluster
+    100402: Character_Neck_ribbonBlend_lClusterG
+    100404: Character_Neck_ribbonBlend_rCluster
+    100406: Character_Neck_ribbonBlend_rClusterG
+    100408: Character_Neck_ribbonSpineG
+    100410: Character_NeckBtm01JIK
+    100412: Character_NeckBtmTX_Lctr
+    100414: Character_NeckLengthCX
+    100416: Character_NeckLengthCXlstr01
+    100418: Character_NeckLengthCXlstr01G
+    100420: Character_NeckLengthCXlstr02
+    100422: Character_NeckLengthCXlstr02G
+    100424: Character_NeckLengthCXlstr03
+    100426: Character_NeckLengthCXlstr03G
+    100428: Character_NeckMidIKC
+    100430: Character_NeckMidIKCG
+    100432: Character_NeckMidIKCG2
+    100434: Character_NeckMidIKCG2_BtmLctr
+    100436: Character_NeckMidIKCG2_BtmLctrG
+    100438: Character_NeckMidIKCG2_TopLctr
+    100440: Character_NeckMidIKCG2_TopLctrG
+    100442: Character_NeckMidJIK
+    100444: Character_NeckSplineBtm
+    100446: Character_NeckSplineBtm_BtmClstr
+    100448: Character_NeckSplineBtm_ClusterG
+    100450: Character_NeckSplineBtm_TopClstr
+    100452: Character_NeckSplineMid_ClusterG
+    100454: Character_NeckSplineTop
+    100456: Character_NeckSplineTop_BtmClstr
+    100458: Character_NeckSplineTop_ClusterG
+    100460: Character_NeckSplineTop_TopClstr
+    100462: Character_NeckTopJIK
+    100464: Character_NeckTopTX_Lctr
+    100466: Character_rAnkleFKC
+    100468: Character_rAnkleFKCG
+    100470: Character_rAnkleFKtoIKLctr
+    100472: Character_rAnkleFKtoIKLctrG
+    100474: Character_rAnkleIKLockLctr
+    100476: Character_rAnkleIKtoFKLctr
+    100478: Character_rAnkleIKtoFKLctrTarget
+    100480: Character_rAnkleIKtoFKLctrTargetG
+    100482: Character_rAnkleJ
+    100484: Character_rAnkleJFK
+    100486: Character_rAnkleJFKG1
+    100488: Character_rAnkleJFKG2
+    100490: Character_rAnkleJIK
+    100492: Character_rArmIKFKG
+    100494: Character_rArmIKHandle
+    100496: Character_rArmLengthEndLctr
+    100498: Character_rArmLengthOriginLctr
+    100500: Character_rArmSwitchC
+    100502: Character_rArmSwitchCG
+    100504: Character_rBallFKC
+    100506: Character_rBallFKCG
+    100508: Character_rBallIKHandle
+    100510: Character_rBallJ
+    100512: Character_rBallJFK
+    100514: Character_rBallJIK
+    100516: Character_rBallSwivel
+    100518: Character_rClavicleC
+    100520: Character_rClavicleCG
+    100522: Character_rClavicleCG2
+    100524: Character_rClavicleJ
+    100526: Character_rElbowFKC
+    100528: Character_rElbowFKCG
+    100530: Character_rElbowIKAimConnectorLctr
+    100532: Character_rElbowIKC
+    100534: Character_rElbowIKC_TargetLctr
+    100536: Character_rElbowIKCG
+    100538: Character_rElbowIKConnectorCX
+    100540: Character_rElbowIKLockLctr
+    100542: Character_rElbowIKTargetConnectorLctr
+    100544: Character_rElbowIKtoFKAimLctr
+    100546: Character_rElbowJ
+    100548: Character_rElbowJFK
+    100550: Character_rElbowJFKG1
+    100552: Character_rElbowJFKG2
+    100554: Character_rElbowJIK
+    100556: Character_rEyeAimAimConnectorLctr
+    100558: Character_rEyeAimC
+    100560: Character_rEyeAimConnectorCX
+    100562: Character_rEyeAimTargetConnectorLctr
+    100564: Character_rEyeJ
+    100566: Character_rFinger1J1
+    100568: Character_rFinger1J1C
+    100570: Character_rFinger1J1CG
+    100572: Character_rFinger1J1CRotG
+    100574: Character_rFinger1J2
+    100576: Character_rFinger1J2C
+    100578: Character_rFinger1J2CG
+    100580: Character_rFinger1J2CRotG
+    100582: Character_rFinger1J3
+    100584: Character_rFinger1J3C
+    100586: Character_rFinger1J3CG
+    100588: Character_rFinger1J3CRotG
+    100590: Character_rFinger1JTip
+    100592: Character_rFinger2J1
+    100594: Character_rFinger2J1C
+    100596: Character_rFinger2J1CG
+    100598: Character_rFinger2J1CRotG
+    100600: Character_rFinger2J2
+    100602: Character_rFinger2J2C
+    100604: Character_rFinger2J2CG
+    100606: Character_rFinger2J2CRotG
+    100608: Character_rFinger2J3
+    100610: Character_rFinger2J3C
+    100612: Character_rFinger2J3CG
+    100614: Character_rFinger2J3CRotG
+    100616: Character_rFinger2JTip
+    100618: Character_rFootBallPivot
+    100620: Character_rFootHeelPivot
+    100622: Character_rFootIKC
+    100624: Character_rFootIKCG
+    100626: Character_rFootInTilt
+    100628: Character_rFootOutTilt
+    100630: Character_rFootToePivot
+    100632: Character_rForearmJ
+    100634: Character_rHipFKC
+    100636: Character_rHipFKCG
+    100638: Character_rHipFKtoIKOrientLctr
+    100640: Character_rHipIKLockLctr
+    100642: Character_rHipJ
+    100644: Character_rHipJFK
+    100646: Character_rHipJIK
+    100648: Character_rKneeFKC
+    100650: Character_rKneeFKCG
+    100652: Character_rKneeIKAimConnectorLctr
+    100654: Character_rKneeIKC
+    100656: Character_rKneeIKC_TargetLctr
+    100658: Character_rKneeIKCG
+    100660: Character_rKneeIKConnectorCX
+    100662: Character_rKneeIKLockLctr
+    100664: Character_rKneeIKTargetConnectorLctr
+    100666: Character_rKneeIKtoFKAimLctr
+    100668: Character_rKneeJ
+    100670: Character_rKneeJFK
+    100672: Character_rKneeJFKG1
+    100674: Character_rKneeJFKG2
+    100676: Character_rKneeJIK
+    100678: Character_rKneeTargetLockLctr
+    100680: Character_rLegIKFKG
+    100682: Character_rLegIKHandle
+    100684: Character_rLegLengthEndLctr
+    100686: Character_rLegLengthOriginLctr
+    100688: Character_rLegSwitchC
+    100690: Character_rLegSwitchCG
+    100692: Character_ROOTC
+    100694: Character_ROOTCG
+    100696: Character_ROOTJ
+    100698: Character_rPalmC
+    100700: Character_rPalmCG
+    100702: Character_rPalmJ
+    100704: Character_rShoulderFKC
+    100706: Character_rShoulderFKCG
+    100708: Character_rShoulderFKCG2
+    100710: Character_rShoulderFKtoIKOrientLctr
+    100712: Character_rShoulderIKLockLctr
+    100714: Character_rShoulderJ
+    100716: Character_rShoulderJFK
+    100718: Character_rShoulderJIK
+    100720: Character_rThumbJ1
+    100722: Character_rThumbJ1C
+    100724: Character_rThumbJ1CG
+    100726: Character_rThumbJ1CRotG
+    100728: Character_rThumbJ2
+    100730: Character_rThumbJ2C
+    100732: Character_rThumbJ2CG
+    100734: Character_rThumbJ2CRotG
+    100736: Character_rThumbJ3
+    100738: Character_rThumbJ3C
+    100740: Character_rThumbJ3CG
+    100742: Character_rThumbJ3CRotG
+    100744: Character_rThumbJTip
+    100746: Character_rToeIKC
+    100748: Character_rToeIKCG
+    100750: Character_rToeIKHandle
+    100752: Character_rToeJ
+    100754: Character_rToeJFK
+    100756: Character_rToeJIK
+    100758: Character_rWristFKC
+    100760: Character_rWristFKCG
+    100762: Character_rWristFKtoIKLctr
+    100764: Character_rWristIKC
+    100766: Character_rWristIKCG
+    100768: Character_rWristIKLockLctr
+    100770: Character_rWristIKtoFKLctr
+    100772: Character_rWristIKtoFKLctrTarget
+    100774: Character_rWristIKtoFKLctrTargetG
+    100776: Character_rWristJ
+    100778: Character_rWristJDummy
+    100780: Character_rWristJFK
+    100782: Character_rWristJFKG1
+    100784: Character_rWristJFKG2
+    100786: Character_rWristJG1
+    100788: Character_rWristJG2
+    100790: Character_rWristJIK
+    100792: Character_rWristJIKProxy
+    100794: Character_rWristJIKProxyG1
+    100796: Character_rWristJIKProxyG2
+    100798: Character_SH_HeadJ
+    100800: Character_SH_HeadTipJ
+    100802: Character_SH_JawJ
+    100804: Character_SH_JawTipJ
+    100806: Character_SH_lAnkleJ
+    100808: Character_SH_lBallJ
+    100810: Character_SH_lClavicleJ
+    100812: Character_SH_lElbowJ
+    100814: Character_SH_lEyeJ
+    100816: Character_SH_lFinger1J1
+    100818: Character_SH_lFinger1J2
+    100820: Character_SH_lFinger1J3
+    100822: Character_SH_lFinger1JTip
+    100824: Character_SH_lFinger2J1
+    100826: Character_SH_lFinger2J2
+    100828: Character_SH_lFinger2J3
+    100830: Character_SH_lFinger2JTip
+    100832: Character_SH_lForearmJ
+    100834: Character_SH_lHipJ
+    100836: Character_SH_lKneeJ
+    100838: Character_SH_lPalmJ
+    100840: Character_SH_lShoulderJ
+    100842: Character_SH_lThumbJ1
+    100844: Character_SH_lThumbJ2
+    100846: Character_SH_lThumbJ3
+    100848: Character_SH_lThumbJTip
+    100850: Character_SH_lToeJ
+    100852: Character_SH_lWristJ
+    100854: Character_SH_Neck01J
+    100856: Character_SH_rAnkleJ
+    100858: Character_SH_rBallJ
+    100860: Character_SH_rClavicleJ
+    100862: Character_SH_rElbowJ
+    100864: Character_SH_rEyeJ
+    100866: Character_SH_rFinger1J1
+    100868: Character_SH_rFinger1J2
+    100870: Character_SH_rFinger1J3
+    100872: Character_SH_rFinger1JTip
+    100874: Character_SH_rFinger2J1
+    100876: Character_SH_rFinger2J2
+    100878: Character_SH_rFinger2J3
+    100880: Character_SH_rFinger2JTip
+    100882: Character_SH_rForearmJ
+    100884: Character_SH_rHipJ
+    100886: Character_SH_rKneeJ
+    100888: Character_SH_ROOTJ
+    100890: Character_SH_rPalmJ
+    100892: Character_SH_rShoulderJ
+    100894: Character_SH_rThumbJ1
+    100896: Character_SH_rThumbJ2
+    100898: Character_SH_rThumbJ3
+    100900: Character_SH_rThumbJTip
+    100902: Character_SH_rToeJ
+    100904: Character_SH_rWristJ
+    100906: Character_SH_Spine01J
+    100908: Character_SH_Spine02J
+    100910: Character_SH_SpineTopJ
+    100912: Character_Spine01CurveC
+    100914: Character_Spine01CurveCG
+    100916: Character_Spine01CurveLctr
+    100918: Character_Spine01CurveLctrG
+    100920: Character_Spine01F
+    100922: Character_Spine01FKC
+    100924: Character_Spine01FKCG
+    100926: Character_Spine01J
+    100928: Character_Spine02CurveC
+    100930: Character_Spine02CurveCG
+    100932: Character_Spine02CurveLctr
+    100934: Character_Spine02CurveLctrG
+    100936: Character_Spine02F
+    100938: Character_Spine02FKC
+    100940: Character_Spine02FKCG
+    100942: Character_Spine02J
+    100944: Character_Spine_hairSystemFollicles
+    100946: Character_Spine_MidAimLctr
+    100948: Character_Spine_MidTargetLctr
+    100950: Character_Spine_MidTargetLctrG
+    100952: Character_Spine_ribbonBlend
+    100954: Character_Spine_ribbonBlend_lCluster
+    100956: Character_Spine_ribbonBlend_lClusterG
+    100958: Character_Spine_ribbonBlend_rCluster
+    100960: Character_Spine_ribbonBlend_rClusterG
+    100962: Character_Spine_ribbonSpineG
+    100964: Character_SpineBtm01JIK
+    100966: Character_SpineBtmTX_Lctr
+    100968: Character_SpineLengthCX
+    100970: Character_SpineLengthCXlstr01
+    100972: Character_SpineLengthCXlstr01G
+    100974: Character_SpineLengthCXlstr02
+    100976: Character_SpineLengthCXlstr02G
+    100978: Character_SpineLengthCXlstr03
+    100980: Character_SpineLengthCXlstr03G
+    100982: Character_SpineMidIKC
+    100984: Character_SpineMidIKCG
+    100986: Character_SpineMidIKCG2
+    100988: Character_SpineMidIKCG2_BtmLctr
+    100990: Character_SpineMidIKCG2_BtmLctrG
+    100992: Character_SpineMidIKCG2_TopLctr
+    100994: Character_SpineMidIKCG2_TopLctrG
+    100996: Character_SpineMidJIK
+    100998: Character_SpineSplineBtm
+    101000: Character_SpineSplineBtm_BtmClstr
+    101002: Character_SpineSplineBtm_ClusterG
+    101004: Character_SpineSplineBtm_TopClstr
+    101006: Character_SpineSplineMid_ClusterG
+    101008: Character_SpineSplineTop
+    101010: Character_SpineSplineTop_BtmClstr
+    101012: Character_SpineSplineTop_ClusterG
+    101014: Character_SpineSplineTop_TopClstr
+    101016: Character_SpineTopFKC
+    101018: Character_SpineTopFKCG
+    101020: Character_SpineTopIKC
+    101022: Character_SpineTopIKC_OrientLctr
+    101024: Character_SpineTopIKCG
+    101026: Character_SpineTopIKCG2
+    101028: Character_SpineTopJ
+    101030: Character_SpineTopJIK
+    101032: Character_SpineTopTX_Lctr
+    101034: Girl
+    101036: Girl_Closed_Eyes
+    101038: Girl_Mesh
+    101040: Open_l_Eye
+    101042: Open_r_Eye
+    400000: BasicWeapon_Mesh
+    400002: Bazooka_Mesh
+    400004: Boy
+    400006: Boy_Eyes01
+    400008: Boy_Eyes02
+    400010: Boy_Hair
+    400012: Character
+    400014: //RootNode
+    400016: Character_ExtraNodes
+    400018: Character_EyeAimC
+    400020: Character_EyeAimCG
+    400022: Character_HeadC
+    400024: Character_HeadC_OrientLctr
+    400026: Character_HeadCG
+    400028: Character_HeadCG2
+    400030: Character_HeadFKC
+    400032: Character_HeadFKCG
+    400034: Character_HeadJ
+    400036: Character_HeadTipJ
+    400038: Character_JawC
+    400040: Character_JawCG
+    400042: Character_JawJ
+    400044: Character_JawTipJ
+    400046: Character_lAnkleFKC
+    400048: Character_lAnkleFKCG
+    400050: Character_lAnkleFKtoIKLctr
+    400052: Character_lAnkleFKtoIKLctrG
+    400054: Character_lAnkleIKLockLctr
+    400056: Character_lAnkleIKtoFKLctr
+    400058: Character_lAnkleIKtoFKLctrG
+    400060: Character_lAnkleJ
+    400062: Character_lAnkleJFK
+    400064: Character_lAnkleJFKG1
+    400066: Character_lAnkleJFKG2
+    400068: Character_lAnkleJIK
+    400070: Character_lArmIKFKG
+    400072: Character_lArmIKHandle
+    400074: Character_lArmLengthEndLctr
+    400076: Character_lArmLengthOriginLctr
+    400078: Character_lArmSwitchC
+    400080: Character_lArmSwitchCG
+    400082: Character_lBallFKC
+    400084: Character_lBallFKCG
+    400086: Character_lBallIKHandle
+    400088: Character_lBallJ
+    400090: Character_lBallJFK
+    400092: Character_lBallJIK
+    400094: Character_lBallSwivel
+    400096: Character_lClavicleC
+    400098: Character_lClavicleCG
+    400100: Character_lClavicleCG2
+    400102: Character_lClavicleJ
+    400104: Character_lElbowFKC
+    400106: Character_lElbowFKCG
+    400108: Character_lElbowIKAimConnectorLctr
+    400110: Character_lElbowIKC
+    400112: Character_lElbowIKC_TargetLctr
+    400114: Character_lElbowIKCG
+    400116: Character_lElbowIKConnectorCX
+    400118: Character_lElbowIKLockLctr
+    400120: Character_lElbowIKTargetConnectorLctr
+    400122: Character_lElbowIKtoFKAimLctr
+    400124: Character_lElbowJ
+    400126: Character_lElbowJFK
+    400128: Character_lElbowJFKG1
+    400130: Character_lElbowJFKG2
+    400132: Character_lElbowJIK
+    400134: Character_lEyeAimAimConnectorLctr
+    400136: Character_lEyeAimC
+    400138: Character_lEyeAimConnectorCX
+    400140: Character_lEyeAimTargetConnectorLctr
+    400142: Character_lEyeJ
+    400144: Character_lFinger1J1
+    400146: Character_lFinger1J1C
+    400148: Character_lFinger1J1CG
+    400150: Character_lFinger1J1CRotG
+    400152: Character_lFinger1J2
+    400154: Character_lFinger1J2C
+    400156: Character_lFinger1J2CG
+    400158: Character_lFinger1J2CRotG
+    400160: Character_lFinger1J3
+    400162: Character_lFinger1J3C
+    400164: Character_lFinger1J3CG
+    400166: Character_lFinger1J3CRotG
+    400168: Character_lFinger1JTip
+    400170: Character_lFinger2J1
+    400172: Character_lFinger2J1C
+    400174: Character_lFinger2J1CG
+    400176: Character_lFinger2J1CRotG
+    400178: Character_lFinger2J2
+    400180: Character_lFinger2J2C
+    400182: Character_lFinger2J2CG
+    400184: Character_lFinger2J2CRotG
+    400186: Character_lFinger2J3
+    400188: Character_lFinger2J3C
+    400190: Character_lFinger2J3CG
+    400192: Character_lFinger2J3CRotG
+    400194: Character_lFinger2JTip
+    400196: Character_lFootBallPivot
+    400198: Character_lFootHeelPivot
+    400200: Character_lFootIKC
+    400202: Character_lFootIKCG
+    400204: Character_lFootInTilt
+    400206: Character_lFootOutTilt
+    400208: Character_lFootToePivot
+    400210: Character_lForearmJ
+    400212: Character_lHipFKC
+    400214: Character_lHipFKCG
+    400216: Character_lHipFKtoIKOrientLctr
+    400218: Character_lHipIKLockLctr
+    400220: Character_lHipJ
+    400222: Character_lHipJFK
+    400224: Character_lHipJIK
+    400226: Character_lKneeFKC
+    400228: Character_lKneeFKCG
+    400230: Character_lKneeIKAimConnectorLctr
+    400232: Character_lKneeIKC
+    400234: Character_lKneeIKC_TargetLctr
+    400236: Character_lKneeIKCG
+    400238: Character_lKneeIKConnectorCX
+    400240: Character_lKneeIKLockLctr
+    400242: Character_lKneeIKTargetConnectorLctr
+    400244: Character_lKneeIKtoFKAimLctr
+    400246: Character_lKneeJ
+    400248: Character_lKneeJFK
+    400250: Character_lKneeJFKG1
+    400252: Character_lKneeJFKG2
+    400254: Character_lKneeJIK
+    400256: Character_lKneeTargetLockLctr
+    400258: Character_lLegIKFKG
+    400260: Character_lLegIKHandle
+    400262: Character_lLegLengthEndLctr
+    400264: Character_lLegLengthOriginLctr
+    400266: Character_lLegSwitchC
+    400268: Character_lLegSwitchCG
+    400270: Character_lPalmC
+    400272: Character_lPalmCG
+    400274: Character_lPalmJ
+    400276: Character_lShoulderFKC
+    400278: Character_lShoulderFKCG
+    400280: Character_lShoulderFKCG2
+    400282: Character_lShoulderFKtoIKOrientLctr
+    400284: Character_lShoulderIKLockLctr
+    400286: Character_lShoulderJ
+    400288: Character_lShoulderJFK
+    400290: Character_lShoulderJIK
+    400292: Character_lThumbJ1
+    400294: Character_lThumbJ1C
+    400296: Character_lThumbJ1CG
+    400298: Character_lThumbJ1CRotG
+    400300: Character_lThumbJ2
+    400302: Character_lThumbJ2C
+    400304: Character_lThumbJ2CG
+    400306: Character_lThumbJ2CRotG
+    400308: Character_lThumbJ3
+    400310: Character_lThumbJ3C
+    400312: Character_lThumbJ3CG
+    400314: Character_lThumbJ3CRotG
+    400316: Character_lThumbJTip
+    400318: Character_lToeIKC
+    400320: Character_lToeIKCG
+    400322: Character_lToeIKHandle
+    400324: Character_lToeJ
+    400326: Character_lToeJFK
+    400328: Character_lToeJIK
+    400330: Character_lWristFKC
+    400332: Character_lWristFKCG
+    400334: Character_lWristFKtoIKLctr
+    400336: Character_lWristIKC
+    400338: Character_lWristIKCG
+    400340: Character_lWristIKLockLctr
+    400342: Character_lWristIKtoFKLctr
+    400344: Character_lWristJ
+    400346: Character_lWristJDummy
+    400348: Character_lWristJFK
+    400350: Character_lWristJFKG1
+    400352: Character_lWristJFKG2
+    400354: Character_lWristJG1
+    400356: Character_lWristJG2
+    400358: Character_lWristJIK
+    400360: Character_lWristJIKProxy
+    400362: Character_lWristJIKProxyG1
+    400364: Character_lWristJIKProxyG2
+    400366: Character_MainC
+    400368: Character_MainHipC
+    400370: Character_MainHipCG
+    400372: Character_Neck01CurveC
+    400374: Character_Neck01CurveCG
+    400376: Character_Neck01CurveLctr
+    400378: Character_Neck01CurveLctrG
+    400380: Character_Neck01F
+    400382: Character_Neck01FKC
+    400384: Character_Neck01FKCG
+    400386: Character_Neck01FKCG_OrientLctr
+    400388: Character_Neck01J
+    400390: Character_Neck_hairSystemFollicles
+    400392: Character_Neck_MidAimLctr
+    400394: Character_Neck_MidTargetLctr
+    400396: Character_Neck_MidTargetLctrG
+    400398: Character_Neck_ribbonBlend
+    400400: Character_Neck_ribbonBlend_lCluster
+    400402: Character_Neck_ribbonBlend_lClusterG
+    400404: Character_Neck_ribbonBlend_rCluster
+    400406: Character_Neck_ribbonBlend_rClusterG
+    400408: Character_Neck_ribbonSpineG
+    400410: Character_NeckBtm01JIK
+    400412: Character_NeckBtmTX_Lctr
+    400414: Character_NeckLengthCX
+    400416: Character_NeckLengthCXlstr01
+    400418: Character_NeckLengthCXlstr01G
+    400420: Character_NeckLengthCXlstr02
+    400422: Character_NeckLengthCXlstr02G
+    400424: Character_NeckLengthCXlstr03
+    400426: Character_NeckLengthCXlstr03G
+    400428: Character_NeckMidIKC
+    400430: Character_NeckMidIKCG
+    400432: Character_NeckMidIKCG2
+    400434: Character_NeckMidIKCG2_BtmLctr
+    400436: Character_NeckMidIKCG2_BtmLctrG
+    400438: Character_NeckMidIKCG2_TopLctr
+    400440: Character_NeckMidIKCG2_TopLctrG
+    400442: Character_NeckMidJIK
+    400444: Character_NeckSplineBtm
+    400446: Character_NeckSplineBtm_BtmClstr
+    400448: Character_NeckSplineBtm_ClusterG
+    400450: Character_NeckSplineBtm_TopClstr
+    400452: Character_NeckSplineMid_ClusterG
+    400454: Character_NeckSplineTop
+    400456: Character_NeckSplineTop_BtmClstr
+    400458: Character_NeckSplineTop_ClusterG
+    400460: Character_NeckSplineTop_TopClstr
+    400462: Character_NeckTopJIK
+    400464: Character_NeckTopTX_Lctr
+    400466: Character_rAnkleFKC
+    400468: Character_rAnkleFKCG
+    400470: Character_rAnkleFKtoIKLctr
+    400472: Character_rAnkleFKtoIKLctrG
+    400474: Character_rAnkleIKLockLctr
+    400476: Character_rAnkleIKtoFKLctr
+    400478: Character_rAnkleIKtoFKLctrTarget
+    400480: Character_rAnkleIKtoFKLctrTargetG
+    400482: Character_rAnkleJ
+    400484: Character_rAnkleJFK
+    400486: Character_rAnkleJFKG1
+    400488: Character_rAnkleJFKG2
+    400490: Character_rAnkleJIK
+    400492: Character_rArmIKFKG
+    400494: Character_rArmIKHandle
+    400496: Character_rArmLengthEndLctr
+    400498: Character_rArmLengthOriginLctr
+    400500: Character_rArmSwitchC
+    400502: Character_rArmSwitchCG
+    400504: Character_rBallFKC
+    400506: Character_rBallFKCG
+    400508: Character_rBallIKHandle
+    400510: Character_rBallJ
+    400512: Character_rBallJFK
+    400514: Character_rBallJIK
+    400516: Character_rBallSwivel
+    400518: Character_rClavicleC
+    400520: Character_rClavicleCG
+    400522: Character_rClavicleCG2
+    400524: Character_rClavicleJ
+    400526: Character_rElbowFKC
+    400528: Character_rElbowFKCG
+    400530: Character_rElbowIKAimConnectorLctr
+    400532: Character_rElbowIKC
+    400534: Character_rElbowIKC_TargetLctr
+    400536: Character_rElbowIKCG
+    400538: Character_rElbowIKConnectorCX
+    400540: Character_rElbowIKLockLctr
+    400542: Character_rElbowIKTargetConnectorLctr
+    400544: Character_rElbowIKtoFKAimLctr
+    400546: Character_rElbowJ
+    400548: Character_rElbowJFK
+    400550: Character_rElbowJFKG1
+    400552: Character_rElbowJFKG2
+    400554: Character_rElbowJIK
+    400556: Character_rEyeAimAimConnectorLctr
+    400558: Character_rEyeAimC
+    400560: Character_rEyeAimConnectorCX
+    400562: Character_rEyeAimTargetConnectorLctr
+    400564: Character_rEyeJ
+    400566: Character_rFinger1J1
+    400568: Character_rFinger1J1C
+    400570: Character_rFinger1J1CG
+    400572: Character_rFinger1J1CRotG
+    400574: Character_rFinger1J2
+    400576: Character_rFinger1J2C
+    400578: Character_rFinger1J2CG
+    400580: Character_rFinger1J2CRotG
+    400582: Character_rFinger1J3
+    400584: Character_rFinger1J3C
+    400586: Character_rFinger1J3CG
+    400588: Character_rFinger1J3CRotG
+    400590: Character_rFinger1JTip
+    400592: Character_rFinger2J1
+    400594: Character_rFinger2J1C
+    400596: Character_rFinger2J1CG
+    400598: Character_rFinger2J1CRotG
+    400600: Character_rFinger2J2
+    400602: Character_rFinger2J2C
+    400604: Character_rFinger2J2CG
+    400606: Character_rFinger2J2CRotG
+    400608: Character_rFinger2J3
+    400610: Character_rFinger2J3C
+    400612: Character_rFinger2J3CG
+    400614: Character_rFinger2J3CRotG
+    400616: Character_rFinger2JTip
+    400618: Character_rFootBallPivot
+    400620: Character_rFootHeelPivot
+    400622: Character_rFootIKC
+    400624: Character_rFootIKCG
+    400626: Character_rFootInTilt
+    400628: Character_rFootOutTilt
+    400630: Character_rFootToePivot
+    400632: Character_rForearmJ
+    400634: Character_rHipFKC
+    400636: Character_rHipFKCG
+    400638: Character_rHipFKtoIKOrientLctr
+    400640: Character_rHipIKLockLctr
+    400642: Character_rHipJ
+    400644: Character_rHipJFK
+    400646: Character_rHipJIK
+    400648: Character_rKneeFKC
+    400650: Character_rKneeFKCG
+    400652: Character_rKneeIKAimConnectorLctr
+    400654: Character_rKneeIKC
+    400656: Character_rKneeIKC_TargetLctr
+    400658: Character_rKneeIKCG
+    400660: Character_rKneeIKConnectorCX
+    400662: Character_rKneeIKLockLctr
+    400664: Character_rKneeIKTargetConnectorLctr
+    400666: Character_rKneeIKtoFKAimLctr
+    400668: Character_rKneeJ
+    400670: Character_rKneeJFK
+    400672: Character_rKneeJFKG1
+    400674: Character_rKneeJFKG2
+    400676: Character_rKneeJIK
+    400678: Character_rKneeTargetLockLctr
+    400680: Character_rLegIKFKG
+    400682: Character_rLegIKHandle
+    400684: Character_rLegLengthEndLctr
+    400686: Character_rLegLengthOriginLctr
+    400688: Character_rLegSwitchC
+    400690: Character_rLegSwitchCG
+    400692: Character_ROOTC
+    400694: Character_ROOTCG
+    400696: Character_ROOTJ
+    400698: Character_rPalmC
+    400700: Character_rPalmCG
+    400702: Character_rPalmJ
+    400704: Character_rShoulderFKC
+    400706: Character_rShoulderFKCG
+    400708: Character_rShoulderFKCG2
+    400710: Character_rShoulderFKtoIKOrientLctr
+    400712: Character_rShoulderIKLockLctr
+    400714: Character_rShoulderJ
+    400716: Character_rShoulderJFK
+    400718: Character_rShoulderJIK
+    400720: Character_rThumbJ1
+    400722: Character_rThumbJ1C
+    400724: Character_rThumbJ1CG
+    400726: Character_rThumbJ1CRotG
+    400728: Character_rThumbJ2
+    400730: Character_rThumbJ2C
+    400732: Character_rThumbJ2CG
+    400734: Character_rThumbJ2CRotG
+    400736: Character_rThumbJ3
+    400738: Character_rThumbJ3C
+    400740: Character_rThumbJ3CG
+    400742: Character_rThumbJ3CRotG
+    400744: Character_rThumbJTip
+    400746: Character_rToeIKC
+    400748: Character_rToeIKCG
+    400750: Character_rToeIKHandle
+    400752: Character_rToeJ
+    400754: Character_rToeJFK
+    400756: Character_rToeJIK
+    400758: Character_rWristFKC
+    400760: Character_rWristFKCG
+    400762: Character_rWristFKtoIKLctr
+    400764: Character_rWristIKC
+    400766: Character_rWristIKCG
+    400768: Character_rWristIKLockLctr
+    400770: Character_rWristIKtoFKLctr
+    400772: Character_rWristIKtoFKLctrTarget
+    400774: Character_rWristIKtoFKLctrTargetG
+    400776: Character_rWristJ
+    400778: Character_rWristJDummy
+    400780: Character_rWristJFK
+    400782: Character_rWristJFKG1
+    400784: Character_rWristJFKG2
+    400786: Character_rWristJG1
+    400788: Character_rWristJG2
+    400790: Character_rWristJIK
+    400792: Character_rWristJIKProxy
+    400794: Character_rWristJIKProxyG1
+    400796: Character_rWristJIKProxyG2
+    400798: Character_SH_HeadJ
+    400800: Character_SH_HeadTipJ
+    400802: Character_SH_JawJ
+    400804: Character_SH_JawTipJ
+    400806: Character_SH_lAnkleJ
+    400808: Character_SH_lBallJ
+    400810: Character_SH_lClavicleJ
+    400812: Character_SH_lElbowJ
+    400814: Character_SH_lEyeJ
+    400816: Character_SH_lFinger1J1
+    400818: Character_SH_lFinger1J2
+    400820: Character_SH_lFinger1J3
+    400822: Character_SH_lFinger1JTip
+    400824: Character_SH_lFinger2J1
+    400826: Character_SH_lFinger2J2
+    400828: Character_SH_lFinger2J3
+    400830: Character_SH_lFinger2JTip
+    400832: Character_SH_lForearmJ
+    400834: Character_SH_lHipJ
+    400836: Character_SH_lKneeJ
+    400838: Character_SH_lPalmJ
+    400840: Character_SH_lShoulderJ
+    400842: Character_SH_lThumbJ1
+    400844: Character_SH_lThumbJ2
+    400846: Character_SH_lThumbJ3
+    400848: Character_SH_lThumbJTip
+    400850: Character_SH_lToeJ
+    400852: Character_SH_lWristJ
+    400854: Character_SH_Neck01J
+    400856: Character_SH_rAnkleJ
+    400858: Character_SH_rBallJ
+    400860: Character_SH_rClavicleJ
+    400862: Character_SH_rElbowJ
+    400864: Character_SH_rEyeJ
+    400866: Character_SH_rFinger1J1
+    400868: Character_SH_rFinger1J2
+    400870: Character_SH_rFinger1J3
+    400872: Character_SH_rFinger1JTip
+    400874: Character_SH_rFinger2J1
+    400876: Character_SH_rFinger2J2
+    400878: Character_SH_rFinger2J3
+    400880: Character_SH_rFinger2JTip
+    400882: Character_SH_rForearmJ
+    400884: Character_SH_rHipJ
+    400886: Character_SH_rKneeJ
+    400888: Character_SH_ROOTJ
+    400890: Character_SH_rPalmJ
+    400892: Character_SH_rShoulderJ
+    400894: Character_SH_rThumbJ1
+    400896: Character_SH_rThumbJ2
+    400898: Character_SH_rThumbJ3
+    400900: Character_SH_rThumbJTip
+    400902: Character_SH_rToeJ
+    400904: Character_SH_rWristJ
+    400906: Character_SH_Spine01J
+    400908: Character_SH_Spine02J
+    400910: Character_SH_SpineTopJ
+    400912: Character_Spine01CurveC
+    400914: Character_Spine01CurveCG
+    400916: Character_Spine01CurveLctr
+    400918: Character_Spine01CurveLctrG
+    400920: Character_Spine01F
+    400922: Character_Spine01FKC
+    400924: Character_Spine01FKCG
+    400926: Character_Spine01J
+    400928: Character_Spine02CurveC
+    400930: Character_Spine02CurveCG
+    400932: Character_Spine02CurveLctr
+    400934: Character_Spine02CurveLctrG
+    400936: Character_Spine02F
+    400938: Character_Spine02FKC
+    400940: Character_Spine02FKCG
+    400942: Character_Spine02J
+    400944: Character_Spine_hairSystemFollicles
+    400946: Character_Spine_MidAimLctr
+    400948: Character_Spine_MidTargetLctr
+    400950: Character_Spine_MidTargetLctrG
+    400952: Character_Spine_ribbonBlend
+    400954: Character_Spine_ribbonBlend_lCluster
+    400956: Character_Spine_ribbonBlend_lClusterG
+    400958: Character_Spine_ribbonBlend_rCluster
+    400960: Character_Spine_ribbonBlend_rClusterG
+    400962: Character_Spine_ribbonSpineG
+    400964: Character_SpineBtm01JIK
+    400966: Character_SpineBtmTX_Lctr
+    400968: Character_SpineLengthCX
+    400970: Character_SpineLengthCXlstr01
+    400972: Character_SpineLengthCXlstr01G
+    400974: Character_SpineLengthCXlstr02
+    400976: Character_SpineLengthCXlstr02G
+    400978: Character_SpineLengthCXlstr03
+    400980: Character_SpineLengthCXlstr03G
+    400982: Character_SpineMidIKC
+    400984: Character_SpineMidIKCG
+    400986: Character_SpineMidIKCG2
+    400988: Character_SpineMidIKCG2_BtmLctr
+    400990: Character_SpineMidIKCG2_BtmLctrG
+    400992: Character_SpineMidIKCG2_TopLctr
+    400994: Character_SpineMidIKCG2_TopLctrG
+    400996: Character_SpineMidJIK
+    400998: Character_SpineSplineBtm
+    401000: Character_SpineSplineBtm_BtmClstr
+    401002: Character_SpineSplineBtm_ClusterG
+    401004: Character_SpineSplineBtm_TopClstr
+    401006: Character_SpineSplineMid_ClusterG
+    401008: Character_SpineSplineTop
+    401010: Character_SpineSplineTop_BtmClstr
+    401012: Character_SpineSplineTop_ClusterG
+    401014: Character_SpineSplineTop_TopClstr
+    401016: Character_SpineTopFKC
+    401018: Character_SpineTopFKCG
+    401020: Character_SpineTopIKC
+    401022: Character_SpineTopIKC_OrientLctr
+    401024: Character_SpineTopIKCG
+    401026: Character_SpineTopIKCG2
+    401028: Character_SpineTopJ
+    401030: Character_SpineTopJIK
+    401032: Character_SpineTopTX_Lctr
+    401034: Girl
+    401036: Girl_Closed_Eyes
+    401038: Girl_Mesh
+    401040: Open_l_Eye
+    401042: Open_r_Eye
+    2300000: BasicWeapon_Mesh
+    2300002: Bazooka_Mesh
+    2300004: Girl_Closed_Eyes
+    2300006: Girl_Mesh
+    2300008: Open_l_Eye
+    2300010: Open_r_Eye
+    3300000: BasicWeapon_Mesh
+    3300002: Bazooka_Mesh
+    3300004: Girl_Closed_Eyes
+    3300006: Girl_Mesh
+    3300008: Open_l_Eye
+    3300010: Open_r_Eye
+    4300000: Open_l_Eye
+    4300002: Open_r_Eye
+    4300004: Girl_Closed_Eyes
+    4300006: Girl_Mesh
+    4300008: Boy_Eyes01
+    4300010: Boy_Eyes02
+    4300012: Boy_Hair
+    4300014: BasicWeapon_Mesh
+    4300016: Bazooka_Mesh
+    7400000: Jump_Forward
+    9500000: //RootNode
+    13700000: Boy_Eyes01
+    13700002: Boy_Eyes02
+    13700004: Boy_Hair
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasicWeapon_Material
+    second: {fileID: 2100000, guid: 56abaf2bc5f308e4d88ff7a08958a8bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bazooka_Material
+    second: {fileID: 2100000, guid: 24d81fa9554b3144cac625916669b0be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Material
+    second: {fileID: 2100000, guid: 23f5649eb41e5654f90845ba93999a81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Female_Head_Material1
+    second: {fileID: 2100000, guid: 09ee0bc6be87c824e947b51504ea13ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Girl_Body_Material
+    second: {fileID: 2100000, guid: 8ffd5a67c1b9f434aaa7b2fedb495fd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Girl_Head_Material
+    second: {fileID: 2100000, guid: 5fc99c7205bb7034ab6e8338e6f404ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaleHead_Material
+    second: {fileID: 2100000, guid: 0048874c5de595143b1c37c982289fc4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Jump_Forward
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Character_SH_ROOTJ
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lHipJ
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rHipJ
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lKneeJ
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rKneeJ
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lAnkleJ
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rAnkleJ
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_Spine01J
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_Spine02J
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_Neck01J
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_HeadJ
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lClavicleJ
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rClavicleJ
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lShoulderJ
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rShoulderJ
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lElbowJ
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rElbowJ
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lWristJ
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rWristJ
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lBallJ
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rBallJ
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lThumbJ1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lThumbJ2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lThumbJ3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lFinger1J1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lFinger1J2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lFinger1J3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lFinger2J1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lFinger2J2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_lFinger2J3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rThumbJ1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rThumbJ2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rThumbJ3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rFinger1J1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rFinger1J2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rFinger1J3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rFinger2J1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rFinger2J2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_rFinger2J3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_SH_SpineTopJ
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Character@Jump_Forward(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boy
+      parentName: Character@Jump_Forward(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boy_Eyes01
+      parentName: Boy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boy_Eyes02
+      parentName: Boy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boy_Hair
+      parentName: Boy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character
+      parentName: Character@Jump_Forward(Clone)
+      position: {x: -2.842171e-16, y: 1.07421, z: 0.18986054}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_MainC
+      parentName: Character
+      position: {x: 2.842171e-16, y: -1.07421, z: -0.18986054}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_ROOTJ
+      parentName: Character_MainC
+      position: {x: -0.004489427, y: 0.82345486, z: 0.0008032769}
+      rotation: {x: -0.000000011641532, y: 3.3881325e-17, z: -0.0000000029103835,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_Spine01J
+      parentName: Character_SH_ROOTJ
+      position: {x: -0.0053535746, y: 0.09798703, z: -0.024121365}
+      rotation: {x: -0.03051165, y: -6.660051e-11, z: 0.0000000021817717, w: 0.9995344}
+      scale: {x: 0.99630344, y: 1, z: 0.9963032}
+    - name: Character_SH_Spine02J
+      parentName: Character_SH_Spine01J
+      position: {x: -0.0065887943, y: 0.101509064, z: 0.0019347557}
+      rotation: {x: -0.000000011175871, y: 4.6146878e-10, z: 0.0000000013949866, w: 1}
+      scale: {x: 0.99630564, y: 0.9999859, z: 0.99631566}
+    - name: Character_SH_SpineTopJ
+      parentName: Character_SH_Spine02J
+      position: {x: -0.005213521, y: 0.103030555, z: -0.0059504113}
+      rotation: {x: 0.5175575, y: -0.4818031, z: 0.51755756, w: -0.4818031}
+      scale: {x: 0.99987286, y: 1.0001283, z: 0.9999996}
+    - name: Character_SH_Neck01J
+      parentName: Character_SH_SpineTopJ
+      position: {x: -0.14787148, y: 0.0156272, z: 0.000060932547}
+      rotation: {x: -0.50605226, y: 0.4938736, z: -0.5060523, w: -0.4938736}
+      scale: {x: 1.0000001, y: 0.9999747, z: 1.0000263}
+    - name: Character_SH_HeadJ
+      parentName: Character_SH_Neck01J
+      position: {x: -0.00011339712, y: 0.08826337, z: 0.019312615}
+      rotation: {x: -0.47223195, y: 0.5263051, z: -0.47223192, w: 0.5263051}
+      scale: {x: 0.999927, y: 1.0000789, z: 1.0000014}
+    - name: Character_SH_HeadTipJ
+      parentName: Character_SH_HeadJ
+      position: {x: -0.63615227, y: -0.0000000015206195, z: -3.4448536e-10}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_lEyeJ
+      parentName: Character_SH_HeadJ
+      position: {x: -0.2267467, y: -0.25414363, z: -0.09324037}
+      rotation: {x: 0.42970797, y: -0.544084, z: 0.45163321, w: 0.5615613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_rEyeJ
+      parentName: Character_SH_HeadJ
+      position: {x: -0.2267467, y: -0.25414363, z: 0.09324037}
+      rotation: {x: 0.4289545, y: -0.54458827, z: 0.45102507, w: 0.562137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_JawJ
+      parentName: Character_SH_HeadJ
+      position: {x: -0.09197611, y: -0.096082844, z: -4.178769e-11}
+      rotation: {x: 0.49999994, y: -0.50000006, z: 0.4999999, w: 0.50000006}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Character_SH_JawTipJ
+      parentName: Character_SH_JawJ
+      position: {x: 7.1072655e-11, y: -0.1058407, z: 0.16485845}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_lClavicleJ
+      parentName: Character_SH_SpineTopJ
+      position: {x: -0.054161828, y: -0.015188302, z: -0.051692445}
+      rotation: {x: -0.6380264, y: 0.48499617, z: -0.42168945, w: -0.4241215}
+      scale: {x: 1.0000498, y: 0.9998264, z: 1.0001284}
+    - name: Character_SH_lShoulderJ
+      parentName: Character_SH_lClavicleJ
+      position: {x: -0.104992285, y: 4.2632563e-16, z: -1.2434498e-16}
+      rotation: {x: -0.007180481, y: 0.10304643, z: 0.068062074, w: 0.9923192}
+      scale: {x: 1.0003027, y: 0.999703, z: 0.9999942}
+    - name: Character_SH_lElbowJ
+      parentName: Character_SH_lShoulderJ
+      position: {x: -0.20999698, y: -4.2632563e-16, z: 5.3290704e-17}
+      rotation: {x: -0.011128504, y: 0.0709544, z: -0.025591584, w: 0.99708915}
+      scale: {x: 0.9999994, y: 0.9999891, z: 1.0000123}
+    - name: Character_SH_lWristJ
+      parentName: Character_SH_lElbowJ
+      position: {x: -0.28113487, y: -1.4210854e-16, z: 0}
+      rotation: {x: 0.009300116, y: -0.03151658, z: 0.042041454, w: 0.9985754}
+      scale: {x: 0.99991417, y: 1.000089, z: 0.9999968}
+    - name: Character_SH_lPalmJ
+      parentName: Character_SH_lWristJ
+      position: {x: -0.102287665, y: 0.011833472, z: 1.9539925e-16}
+      rotation: {x: -0, y: -0, z: -0.0000000016880222, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Character_SH_lFinger1J1
+      parentName: Character_SH_lPalmJ
+      position: {x: -0.08145817, y: 0.0017150578, z: 0.06302243}
+      rotation: {x: -0.0000000055879354, y: -9.432559e-18, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1.0003085, y: 0.9996936, z: 1.0000001}
+    - name: Character_SH_lFinger1J2
+      parentName: Character_SH_lFinger1J1
+      position: {x: -0.06271642, y: -0.0032944565, z: 1.7763567e-16}
+      rotation: {x: -0.00000480376, y: -0.000040587005, z: -0.0033321, w: 0.99999446}
+      scale: {x: 1.0006589, y: 0.99934876, z: 1.0000001}
+    - name: Character_SH_lFinger1J3
+      parentName: Character_SH_lFinger1J2
+      position: {x: -0.07554093, y: -0.00999705, z: 2.1316282e-16}
+      rotation: {x: -0.0000000072652884, y: 0.0000000044902615, z: 0.05588717, w: 0.99843717}
+      scale: {x: 1.000186, y: 0.9998173, z: 1.0000001}
+    - name: Character_SH_lFinger1JTip
+      parentName: Character_SH_lFinger1J3
+      position: {x: -0.07836835, y: -0.0075156144, z: 1.1191048e-15}
+      rotation: {x: 0, y: 0, z: 0.04860502, w: 0.9988181}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_lFinger2J1
+      parentName: Character_SH_lPalmJ
+      position: {x: -0.08145813, y: 0.0017150578, z: -0.061977565}
+      rotation: {x: -0.0000000055879354, y: -9.432559e-18, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1.0003085, y: 0.9996936, z: 1.0000001}
+    - name: Character_SH_lFinger2J2
+      parentName: Character_SH_lFinger2J1
+      position: {x: -0.06271642, y: -0.0032944565, z: 2.1316282e-16}
+      rotation: {x: -0.000004843807, y: -0.00004040819, z: -0.003329818, w: 0.9999945}
+      scale: {x: 1.0006589, y: 0.99934876, z: 1.0000001}
+    - name: Character_SH_lFinger2J3
+      parentName: Character_SH_lFinger2J2
+      position: {x: -0.07554093, y: -0.00999705, z: 2.842171e-16}
+      rotation: {x: -0.0000000072652884, y: 0.0000000044902615, z: 0.05588717, w: 0.99843717}
+      scale: {x: 1.000186, y: 0.9998173, z: 1.0000001}
+    - name: Character_SH_lFinger2JTip
+      parentName: Character_SH_lFinger2J3
+      position: {x: -0.07836836, y: -0.0075156144, z: 9.592326e-16}
+      rotation: {x: 0, y: 0, z: 0.04860502, w: 0.9988181}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_lThumbJ1
+      parentName: Character_SH_lWristJ
+      position: {x: -0.036643114, y: -0.066909626, z: 0.11462053}
+      rotation: {x: 0.7424846, y: 0.21709807, z: -0.23158301, w: 0.58987653}
+      scale: {x: 1.005512, y: 0.9999351, z: 0.9945923}
+    - name: Character_SH_lThumbJ2
+      parentName: Character_SH_lThumbJ1
+      position: {x: -0.1113994, y: 0.0011822898, z: 0.0005551499}
+      rotation: {x: -0.00050243735, y: 0.0016124994, z: 0.031902388, w: 0.99948967}
+      scale: {x: 0.9991099, y: 1.0009102, z: 0.99999195}
+    - name: Character_SH_lThumbJ3
+      parentName: Character_SH_lThumbJ2
+      position: {x: -0.070450135, y: -2.842171e-16, z: -4.2632563e-16}
+      rotation: {x: 0.00000012313828, y: 0.000000020605507, z: -0.0000000025826232,
+        w: 1}
+      scale: {x: 0.9998625, y: 1.0001386, z: 1.0000006}
+    - name: Character_SH_lThumbJTip
+      parentName: Character_SH_lThumbJ3
+      position: {x: -0.070450135, y: 0, z: -2.842171e-16}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_lForearmJ
+      parentName: Character_SH_lElbowJ
+      position: {x: -0.14056744, y: -1.4210854e-16, z: 0}
+      rotation: {x: -0, y: -0, z: 2.3283062e-10, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: Character_SH_rClavicleJ
+      parentName: Character_SH_SpineTopJ
+      position: {x: -0.05416314, y: -0.015188079, z: 0.051691134}
+      rotation: {x: -0.48499617, y: -0.63802654, z: -0.42412147, w: 0.4216894}
+      scale: {x: 1.0000502, y: 0.9998267, z: 1.0001292}
+    - name: Character_SH_rShoulderJ
+      parentName: Character_SH_rClavicleJ
+      position: {x: 0.104992285, y: 2.842171e-16, z: 2.3092638e-16}
+      rotation: {x: -0.0071804514, y: 0.10304581, z: 0.06806209, w: 0.99231935}
+      scale: {x: 1.0003026, y: 0.99970394, z: 0.9999947}
+    - name: Character_SH_rElbowJ
+      parentName: Character_SH_rShoulderJ
+      position: {x: 0.20999698, y: -4.2632563e-16, z: -7.105427e-17}
+      rotation: {x: -0.011127016, y: 0.07095412, z: -0.025591422, w: 0.99708915}
+      scale: {x: 0.99999917, y: 0.9999906, z: 1.0000137}
+    - name: Character_SH_rWristJ
+      parentName: Character_SH_rElbowJ
+      position: {x: 0.28113487, y: 1.4210854e-16, z: 2.842171e-16}
+      rotation: {x: 0.0092986105, y: -0.031516496, z: 0.04204151, w: 0.9985754}
+      scale: {x: 0.999914, y: 1.0000882, z: 0.99999607}
+    - name: Character_SH_rPalmJ
+      parentName: Character_SH_rWristJ
+      position: {x: 0.102287665, y: -0.011833472, z: 0}
+      rotation: {x: -0, y: -0, z: -0.000000001513399, w: 1}
+      scale: {x: 0.99999994, y: 1.0000012, z: 1.0000012}
+    - name: Character_SH_rFinger1J1
+      parentName: Character_SH_rPalmJ
+      position: {x: 0.08145817, y: -0.0017150578, z: -0.06302243}
+      rotation: {x: -1, y: -0.0000000032014211, z: 2.3283063e-10, w: -0.0000000055879354}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000006}
+    - name: Character_SH_rFinger1J2
+      parentName: Character_SH_rFinger1J1
+      position: {x: 0.06271642, y: -0.0032944565, z: 2.4868996e-16}
+      rotation: {x: -0.0000048503257, y: 0.000040646813, z: 0.0032361175, w: 0.99999475}
+      scale: {x: 1.0019475, y: 0.9980688, z: 1.0000002}
+    - name: Character_SH_rFinger1J3
+      parentName: Character_SH_rFinger1J2
+      position: {x: 0.07554093, y: -0.00999705, z: 2.3092638e-16}
+      rotation: {x: -0.0000000027824254, y: 5.9579497e-10, z: -0.055887066, w: 0.99843717}
+      scale: {x: 1.0001082, y: 0.99989307, z: 1.0000001}
+    - name: Character_SH_rFinger1JTip
+      parentName: Character_SH_rFinger1J3
+      position: {x: 0.07836835, y: -0.0075156144, z: 1.0835777e-15}
+      rotation: {x: 0, y: -0, z: -0.04860502, w: 0.9988181}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_rFinger2J1
+      parentName: Character_SH_rPalmJ
+      position: {x: 0.08145813, y: -0.0017150578, z: 0.061977565}
+      rotation: {x: -1, y: -0.0000000032014211, z: 2.3283063e-10, w: -0.0000000055879354}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000006}
+    - name: Character_SH_rFinger2J2
+      parentName: Character_SH_rFinger2J1
+      position: {x: 0.06271642, y: -0.0032944565, z: 1.7763567e-16}
+      rotation: {x: -0.0000047801273, y: 0.00004070083, z: 0.0032349601, w: 0.99999475}
+      scale: {x: 1.0019475, y: 0.9980688, z: 1.0000002}
+    - name: Character_SH_rFinger2J3
+      parentName: Character_SH_rFinger2J2
+      position: {x: 0.07554093, y: -0.00999705, z: 2.1316282e-16}
+      rotation: {x: -0.0000000027824254, y: 5.9579497e-10, z: -0.055887066, w: 0.99843717}
+      scale: {x: 1.0001082, y: 0.99989307, z: 1.0000001}
+    - name: Character_SH_rFinger2JTip
+      parentName: Character_SH_rFinger2J3
+      position: {x: 0.07836836, y: -0.0075156144, z: 9.237055e-16}
+      rotation: {x: 0, y: -0, z: -0.04860502, w: 0.9988181}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_rThumbJ1
+      parentName: Character_SH_rWristJ
+      position: {x: 0.036643114, y: 0.066909626, z: -0.11462053}
+      rotation: {x: -0.3206449, y: -0.0013077046, z: -0.946719, w: 0.030138029}
+      scale: {x: 1.0057576, y: 0.9942168, z: 1.000064}
+    - name: Character_SH_rThumbJ2
+      parentName: Character_SH_rThumbJ1
+      position: {x: -0.11140706, y: -5.684342e-16, z: -2.842171e-16}
+      rotation: {x: 0.017617997, y: 0.03585494, z: -0.010204567, w: 0.9991496}
+      scale: {x: 0.99810266, y: 0.99990404, z: 1.002011}
+    - name: Character_SH_rThumbJ3
+      parentName: Character_SH_rThumbJ2
+      position: {x: -0.070450135, y: -7.105427e-17, z: 4.2632563e-16}
+      rotation: {x: 0.000000022351744, y: 0.000000029802326, z: -0.000000021886082,
+        w: 1}
+      scale: {x: 0.99978614, y: 1.0000379, z: 1.0001782}
+    - name: Character_SH_rThumbJTip
+      parentName: Character_SH_rThumbJ3
+      position: {x: -0.070450135, y: -7.105427e-17, z: -1.4210854e-16}
+      rotation: {x: 0.5621086, y: 0.4289918, z: -0.5621086, w: -0.4289918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_rForearmJ
+      parentName: Character_SH_rElbowJ
+      position: {x: 0.14056744, y: 1.4210854e-16, z: -3.5527136e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000012}
+    - name: Character_SH_lHipJ
+      parentName: Character_SH_ROOTJ
+      position: {x: -0.095400274, y: -0.055032212, z: 0.018780688}
+      rotation: {x: 0.5258622, y: 0.43931466, z: 0.49687538, w: 0.53252846}
+      scale: {x: 1.0000007, y: 1.000001, z: 1.000001}
+    - name: Character_SH_lKneeJ
+      parentName: Character_SH_lHipJ
+      position: {x: -0.25205228, y: -7.105427e-17, z: 1.0658141e-16}
+      rotation: {x: 0.00072914356, y: 0.0008356421, z: 0.031092342, w: 0.9995159}
+      scale: {x: 1.0000006, y: 1.0000006, z: 0.99999976}
+    - name: Character_SH_lAnkleJ
+      parentName: Character_SH_lKneeJ
+      position: {x: -0.3576567, y: -2.842171e-16, z: 1.0658141e-16}
+      rotation: {x: 0.012674093, y: 0.066743374, z: -0.37108165, w: 0.9261118}
+      scale: {x: 0.99999976, y: 0.9999996, z: 0.99999994}
+    - name: Character_SH_lBallJ
+      parentName: Character_SH_lAnkleJ
+      position: {x: -0.17989972, y: -3.5527136e-17, z: 1.0658141e-16}
+      rotation: {x: -0.00000031478703, y: 0.00000056251884, z: -0.44476938, w: 0.8956452}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000007}
+    - name: Character_SH_lToeJ
+      parentName: Character_SH_lBallJ
+      position: {x: -0.14484464, y: -7.105427e-17, z: 3.1974422e-16}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_SH_rHipJ
+      parentName: Character_SH_ROOTJ
+      position: {x: 0.095400274, y: -0.055032212, z: 0.018780688}
+      rotation: {x: -0.53252745, y: 0.49687633, z: -0.43931252, w: 0.525864}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: Character_SH_rKneeJ
+      parentName: Character_SH_rHipJ
+      position: {x: 0.25205228, y: -1.7763567e-16, z: -7.105427e-17}
+      rotation: {x: 0.0007288754, y: 0.00083723664, z: 0.031087473, w: 0.9995161}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000008}
+    - name: Character_SH_rAnkleJ
+      parentName: Character_SH_rKneeJ
+      position: {x: 0.3576567, y: 7.105427e-17, z: 7.105427e-17}
+      rotation: {x: -0.012674434, y: -0.06674298, z: 0.37107977, w: -0.9261126}
+      scale: {x: 0.9999999, y: 0.99999964, z: 1}
+    - name: Character_SH_rBallJ
+      parentName: Character_SH_rAnkleJ
+      position: {x: 0.17989972, y: -7.105427e-17, z: -7.105427e-17}
+      rotation: {x: -0.00000030919907, y: 0.00000053271646, z: -0.44476956, w: 0.895645}
+      scale: {x: 1.0000007, y: 1.0000012, z: 1.0000008}
+    - name: Character_SH_rToeJ
+      parentName: Character_SH_rBallJ
+      position: {x: 0.14484464, y: -2.1316282e-16, z: 9.592326e-16}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

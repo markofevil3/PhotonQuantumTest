@@ -1,0 +1,1 @@
+﻿// EntityComponentPhysicsCollider2DEditor.cs has been removed

@@ -1,0 +1,1 @@
+﻿// EntityComponentTransform2DVerticalEditor.cs has been removed

@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c7b65fea44e964aabbede6a2e3d752, type: 3}
+  m_Name: SimulationConfig
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Configs/SimulationConfig
+      Guid:
+        Value: 5
+    Navigation:
+      AvoidanceRange:
+        RawValue: 524288
+      MaxAvoidanceCandidates: 64
+      EnableAvoidance: 1
+      DefaultNavMeshAgent:
+        Id:
+          Value: 2
+      EnableNavigationCallbacks: 0
+    Physics:
+      Gravity:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      SolverIterations: 4
+      UseAngularVelocity: 1
+      UseVerticalTransform: 1
+      PenetrationAllowance:
+        RawValue: 655
+      PenetrationCorrection:
+        RawValue: 32768
+      MinLinearIntegration:
+        RawValue: 0
+      MinAngularIntegration:
+        RawValue: 0
+      AllowSleeping: 0
+      SleepTimeSec:
+        RawValue: 32768
+      LinearSleepTolerance:
+        RawValue: 1310
+      AngularSleepToleranceInRad:
+        RawValue: 2286
+      DefaultEntriesCapacity: 2048
+      DefaultStaticsCapacity: 1024
+      DefaultQueriesCapacity: 1024
+      DefaultQueryItemsCapacity: 4096
+      DefaultHitCollectionItemsCapacity: 32
+      DefaultBucketsCapacity: 16
+      DefaultIslandsCapacity: 512
+      DefaultManifoldsCapacity: 1024
+      DefaultPhysicsMaterial:
+        Id:
+          Value: 1
+      DefaultCharacterController2D:
+        Id:
+          Value: 3
+      DefaultCharacterController3D:
+        Id:
+          Value: 4
+      Layers:
+      - Default
+      - TransparentFX
+      - Ignore Raycast
+      - 
+      - Water
+      - UI
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      LayerMatrix: fffefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+    Entities:
+      CommitCommandsMode: 0
+      DefaultEntityCapacity: 1024
+      DefaultComponentBlockCapacity: 128
+      ComponentTypeConfiguration: []
+    AutoLoadSceneFromMap: 1
+    DeltaTimeType: 0
+    HeapPageShift: 15
+    HeapPageCount: 256
+    HeapExtraCount: 0
+    ThreadCount: 2
+    ChecksumSnapshotHistoryLengthSeconds:
+      RawValue: 196608
