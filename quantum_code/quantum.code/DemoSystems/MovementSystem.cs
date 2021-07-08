@@ -10,6 +10,12 @@ namespace Quantum {
       public PlayerLink* PlayerLink;
     }
 
+    public override void OnInit(Frame f) {
+      base.OnInit(f);
+      // Pick a random position on map??
+      
+    }
+
     public override void Update(Frame f, ref Filter filter) {
       Console.WriteLine($"update===========");
 

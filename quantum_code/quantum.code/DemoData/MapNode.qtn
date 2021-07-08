@@ -1,1 +1,6 @@
-component MapNode {}
+asset MapNodeSpec;
+
+// Reference to MapNode data in Unity for position and next node destinations...
+component MapNode {
+  asset_ref<MapNodeSpec> Spec;
+}

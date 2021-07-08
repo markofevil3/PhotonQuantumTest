@@ -41,18 +41,58 @@ MonoBehaviour:
         Id:
           Value: 5
       ResourcePath: DB/Configs/SimulationConfig
+    - Path: Resources/DB/MapNode1.1
+      AssetRef:
+        Id:
+          Value: 340335792834950834
+      ResourcePath: DB/MapNode1.1
     - Path: Resources/DB/Characters/CharacterPrototype|EntityPrototype
       AssetRef:
         Id:
           Value: 759839448108922552
       ResourcePath: DB/Characters/CharacterPrototype
+    - Path: Resources/DB/MapNode1.2
+      AssetRef:
+        Id:
+          Value: 1018208875005111369
+      ResourcePath: DB/MapNode1.2
+    - Path: Resources/DB/MapNode1.0
+      AssetRef:
+        Id:
+          Value: 1398438494808857616
+      ResourcePath: DB/MapNode1.0
     - Path: Resources/DB/Map1
       AssetRef:
         Id:
           Value: 1710471675203725834
       ResourcePath: DB/Map1
+    - Path: Resources/DB/MapNode2.3
+      AssetRef:
+        Id:
+          Value: 1772210729415471286
+      ResourcePath: DB/MapNode2.3
+    - Path: Resources/DB/MapNode2.2
+      AssetRef:
+        Id:
+          Value: 1924063928148585836
+      ResourcePath: DB/MapNode2.2
+    - Path: Resources/DB/MapNode1.3
+      AssetRef:
+        Id:
+          Value: 2386776063125606296
+      ResourcePath: DB/MapNode1.3
     - Path: Resources/DB/Characters/CharacterPrototype|EntityView
       AssetRef:
         Id:
           Value: 2874147073108504426
       ResourcePath: DB/Characters/CharacterPrototype
+    - Path: Resources/DB/MapNode2.1
+      AssetRef:
+        Id:
+          Value: 3283748005720652356
+      ResourcePath: DB/MapNode2.1
+    - Path: Resources/DB/MapNode2.0
+      AssetRef:
+        Id:
+          Value: 4555570906406432246
+      ResourcePath: DB/MapNode2.0
