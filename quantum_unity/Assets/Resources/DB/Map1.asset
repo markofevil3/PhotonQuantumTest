@@ -80,7 +80,12 @@ MonoBehaviour:
   - MapNode:
     - Spec:
         Id:
-          Value: 1398438494808857616
+          Value: 3350443731313001110
+      NextNodes:
+      - SceneIndexPlusOne: 2
+      - SceneIndexPlusOne: 0
+      Occupied:
+        Value: 0
     PlayerLink: []
     CharacterController2D: []
     CharacterController3D: []
@@ -99,11 +104,11 @@ MonoBehaviour:
     Transform3D:
     - Position:
         X:
-          RawValue: 1315307
+          RawValue: 865075
         Y:
           RawValue: 0
         Z:
-          RawValue: -1346764
+          RawValue: -871628
       Rotation:
         X:
           RawValue: 0
@@ -115,7 +120,12 @@ MonoBehaviour:
   - MapNode:
     - Spec:
         Id:
-          Value: 340335792834950834
+          Value: 1462208787029446997
+      NextNodes:
+      - SceneIndexPlusOne: 3
+      - SceneIndexPlusOne: 0
+      Occupied:
+        Value: 0
     PlayerLink: []
     CharacterController2D: []
     CharacterController3D: []
@@ -150,7 +160,12 @@ MonoBehaviour:
   - MapNode:
     - Spec:
         Id:
-          Value: 1018208875005111369
+          Value: 4346420965781827115
+      NextNodes:
+      - SceneIndexPlusOne: 1
+      - SceneIndexPlusOne: 0
+      Occupied:
+        Value: 0
     PlayerLink: []
     CharacterController2D: []
     CharacterController3D: []
@@ -185,7 +200,12 @@ MonoBehaviour:
   - MapNode:
     - Spec:
         Id:
-          Value: 2386776063125606296
+          Value: 2765662471242665950
+      NextNodes:
+      - SceneIndexPlusOne: 5
+      - SceneIndexPlusOne: 0
+      Occupied:
+        Value: 0
     PlayerLink: []
     CharacterController2D: []
     CharacterController3D: []
@@ -204,11 +224,11 @@ MonoBehaviour:
     Transform3D:
     - Position:
         X:
-          RawValue: 437125
+          RawValue: -1015808
         Y:
           RawValue: 0
         Z:
-          RawValue: 416808
+          RawValue: 734003
       Rotation:
         X:
           RawValue: 0
@@ -220,42 +240,12 @@ MonoBehaviour:
   - MapNode:
     - Spec:
         Id:
-          Value: 4555570906406432246
-    PlayerLink: []
-    CharacterController2D: []
-    CharacterController3D: []
-    NavMeshAvoidanceAgent: []
-    NavMeshAvoidanceObstacle: []
-    NavMeshPathfinder: []
-    NavMeshSteeringAgent: []
-    PhysicsBody2D: []
-    PhysicsBody3D: []
-    PhysicsCollider2D: []
-    PhysicsCollider3D: []
-    PhysicsCallbacks2D: []
-    PhysicsCallbacks3D: []
-    Transform2D: []
-    Transform2DVertical: []
-    Transform3D:
-    - Position:
-        X:
-          RawValue: -1465385
-        Y:
-          RawValue: 0
-        Z:
-          RawValue: 1429340
-      Rotation:
-        X:
-          RawValue: 0
-        Y:
-          RawValue: 0
-        Z:
-          RawValue: 0
-    View: []
-  - MapNode:
-    - Spec:
-        Id:
-          Value: 3283748005720652356
+          Value: 2093608419410794054
+      NextNodes:
+      - SceneIndexPlusOne: 6
+      - SceneIndexPlusOne: 0
+      Occupied:
+        Value: 0
     PlayerLink: []
     CharacterController2D: []
     CharacterController3D: []
@@ -278,7 +268,7 @@ MonoBehaviour:
         Y:
           RawValue: 0
         Z:
-          RawValue: 972554
+          RawValue: -380108
       Rotation:
         X:
           RawValue: 0
@@ -290,7 +280,12 @@ MonoBehaviour:
   - MapNode:
     - Spec:
         Id:
-          Value: 1924063928148585836
+          Value: 2642697901939303877
+      NextNodes:
+      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 0
+      Occupied:
+        Value: 0
     PlayerLink: []
     CharacterController2D: []
     CharacterController3D: []
@@ -325,7 +320,12 @@ MonoBehaviour:
   - MapNode:
     - Spec:
         Id:
-          Value: 1772210729415471286
+          Value: 2290168940796569664
+      NextNodes:
+      - SceneIndexPlusOne: 8
+      - SceneIndexPlusOne: 0
+      Occupied:
+        Value: 0
     PlayerLink: []
     CharacterController2D: []
     CharacterController3D: []
@@ -344,11 +344,91 @@ MonoBehaviour:
     Transform3D:
     - Position:
         X:
-          RawValue: -72089
+          RawValue: 865075
         Y:
           RawValue: 0
         Z:
-          RawValue: 321126
+          RawValue: 779223
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+    View: []
+  - MapNode:
+    - Spec:
+        Id:
+          Value: 1609787629615721163
+      NextNodes:
+      - SceneIndexPlusOne: 9
+      - SceneIndexPlusOne: 0
+      Occupied:
+        Value: 0
+    PlayerLink: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D: []
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D: []
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: 124518
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 779223
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+    View: []
+  - MapNode:
+    - Spec:
+        Id:
+          Value: 241368902848100397
+      NextNodes:
+      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 0
+      Occupied:
+        Value: 0
+    PlayerLink: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D: []
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D: []
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: 124518
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: -222822
       Rotation:
         X:
           RawValue: 0

@@ -44,7 +44,7 @@ MonoBehaviour:
     BaseJumpImpulse:
       RawValue: 131072
     MaxSpeed:
-      RawValue: 65536
+      RawValue: 6553600
     Gravity:
       X:
         RawValue: 0

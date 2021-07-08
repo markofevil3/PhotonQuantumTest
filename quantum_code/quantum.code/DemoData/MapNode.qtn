@@ -3,4 +3,6 @@ asset MapNodeSpec;
 // Reference to MapNode data in Unity for position and next node destinations...
 component MapNode {
   asset_ref<MapNodeSpec> Spec;
+  array<entity_ref>[2] NextNodes;
+  Boolean Occupied; // this node has been selected
 }

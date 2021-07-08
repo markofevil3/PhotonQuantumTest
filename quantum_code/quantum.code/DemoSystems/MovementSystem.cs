@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using Photon.Deterministic;
+using UnityEngine;
 
 namespace Quantum {
   public unsafe class MovementSystem : SystemMainThreadFilter<MovementSystem.Filter>, ISignalOnPlayerDataSet {
@@ -10,17 +12,24 @@ namespace Quantum {
       public PlayerLink* PlayerLink;
     }
 
-    public override void OnInit(Frame f) {
-      base.OnInit(f);
-      // Pick a random position on map??
-      
-    }
-
+    Int32 speed = 3;
+    
     public override void Update(Frame f, ref Filter filter) {
-      Console.WriteLine($"update===========");
-
-      filter.KCC->Move(f, filter.Entity, FPVector3.Forward);
-      filter.Transform -> Rotation = FPQuaternion.LookRotation(FPVector3.Forward);
+      BattlePlayer* battlePlayer = f.Global -> Players.GetPointer(filter.PlayerLink->PlayerRef);
+      var spawnTransform = f.Get<Transform3D>(battlePlayer->TargetMapNode);
+      var dir=(spawnTransform.Position - filter.Transform->Position).Normalized;
+      Debug.Log("move == " + FPVector3.Distance(filter.Transform->Position, spawnTransform.Position));
+      // If reach destination -> continue to next one
+      if (FPVector3.Distance(filter.Transform -> Position, spawnTransform.Position) < 1) {
+        MapNode mapNode = f.Get<MapNode>(battlePlayer->TargetMapNode);
+        MapNodeSpec mapNodeSpec = f.FindAsset<MapNodeSpec>(mapNode.Spec.Id);
+        if (mapNodeSpec != null && mapNodeSpec.NextNodes.Length > 0 && mapNodeSpec.NextNodes[0] != null) {
+          battlePlayer -> TargetMapNode = mapNode.NextNodes[0];
+        }
+      } else {
+        filter.KCC->Move(f, filter.Entity, dir * speed * f.DeltaTime);
+        filter.Transform -> Rotation = FPQuaternion.LookRotation(dir);
+      }
     }
 
     public void OnPlayerDataSet(Frame f, PlayerRef player) {
@@ -28,9 +37,27 @@ namespace Quantum {
       EntityPrototype characterPrototype = f.FindAsset<EntityPrototype>(playerData.CharacterPrototype.Id);
       EntityRef characterRef = f.Create(characterPrototype);
 
-      if (f.TryGet<PlayerLink>(characterRef, out var pl)) {
-        pl.PlayerRef = player;
+      if (f.Unsafe.TryGetPointer<PlayerLink>(characterRef, out var pl)) {
+        pl->PlayerRef = player;
       }
+      List<EntityComponentPair<MapNode>> spawnableMapNode = new List<EntityComponentPair<MapNode>>();
+      // Pick a random position on map??
+      foreach (var mapNode in f.GetComponentIterator<MapNode>()) {
+        MapNodeSpec mapNodeSpec = f.FindAsset<MapNodeSpec>(mapNode.Component.Spec.Id);
+        if (mapNodeSpec.IsFirstNode && !mapNode.Component.Occupied) {
+          spawnableMapNode.Add(mapNode);
+        }
+      }
+      var index = f.RNG->Next(0, spawnableMapNode.Count);
+      Debug.Log($"spawnableMapNode== {spawnableMapNode.Count} index {index}");
+
+      var spawnTransform = f.Get<Transform3D>(spawnableMapNode[index].Entity);
+      f.Unsafe.GetPointer<Transform3D>(characterRef)->Position = spawnTransform.Position;
+      f.Unsafe.GetPointer<MapNode>(spawnableMapNode[index].Entity) -> Occupied = true;
+      // Set target node to next node
+      BattlePlayer* battlePlayer = f.Global -> Players.GetPointer(player);
+      battlePlayer->PlayerRef = player;
+      battlePlayer -> TargetMapNode = spawnableMapNode[index].Component.NextNodes[0];
     }
   }
 }

@@ -41,58 +41,63 @@ MonoBehaviour:
         Id:
           Value: 5
       ResourcePath: DB/Configs/SimulationConfig
-    - Path: Resources/DB/MapNode1.1
+    - Path: Resources/DB/MapNode3.2
       AssetRef:
         Id:
-          Value: 340335792834950834
-      ResourcePath: DB/MapNode1.1
+          Value: 241368902848100397
+      ResourcePath: DB/MapNode3.2
     - Path: Resources/DB/Characters/CharacterPrototype|EntityPrototype
       AssetRef:
         Id:
           Value: 759839448108922552
       ResourcePath: DB/Characters/CharacterPrototype
-    - Path: Resources/DB/MapNode1.2
+    - Path: Resources/DB/MapNode1.1
       AssetRef:
         Id:
-          Value: 1018208875005111369
-      ResourcePath: DB/MapNode1.2
-    - Path: Resources/DB/MapNode1.0
+          Value: 1462208787029446997
+      ResourcePath: DB/MapNode1.1
+    - Path: Resources/DB/MapNode3.1
       AssetRef:
         Id:
-          Value: 1398438494808857616
-      ResourcePath: DB/MapNode1.0
+          Value: 1609787629615721163
+      ResourcePath: DB/MapNode3.1
     - Path: Resources/DB/Map1
       AssetRef:
         Id:
           Value: 1710471675203725834
       ResourcePath: DB/Map1
-    - Path: Resources/DB/MapNode2.3
+    - Path: Resources/DB/MapNode2.1
       AssetRef:
         Id:
-          Value: 1772210729415471286
-      ResourcePath: DB/MapNode2.3
+          Value: 2093608419410794054
+      ResourcePath: DB/MapNode2.1
+    - Path: Resources/DB/MapNode3.0
+      AssetRef:
+        Id:
+          Value: 2290168940796569664
+      ResourcePath: DB/MapNode3.0
     - Path: Resources/DB/MapNode2.2
       AssetRef:
         Id:
-          Value: 1924063928148585836
+          Value: 2642697901939303877
       ResourcePath: DB/MapNode2.2
-    - Path: Resources/DB/MapNode1.3
+    - Path: Resources/DB/MapNode2.0
       AssetRef:
         Id:
-          Value: 2386776063125606296
-      ResourcePath: DB/MapNode1.3
+          Value: 2765662471242665950
+      ResourcePath: DB/MapNode2.0
     - Path: Resources/DB/Characters/CharacterPrototype|EntityView
       AssetRef:
         Id:
           Value: 2874147073108504426
       ResourcePath: DB/Characters/CharacterPrototype
-    - Path: Resources/DB/MapNode2.1
+    - Path: Resources/DB/MapNode1.0
       AssetRef:
         Id:
-          Value: 3283748005720652356
-      ResourcePath: DB/MapNode2.1
-    - Path: Resources/DB/MapNode2.0
+          Value: 3350443731313001110
+      ResourcePath: DB/MapNode1.0
+    - Path: Resources/DB/MapNode1.2
       AssetRef:
         Id:
-          Value: 4555570906406432246
-      ResourcePath: DB/MapNode2.0
+          Value: 4346420965781827115
+      ResourcePath: DB/MapNode1.2

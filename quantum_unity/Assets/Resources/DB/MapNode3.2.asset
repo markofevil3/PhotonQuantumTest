@@ -9,13 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c23eee4f8db9f49d9b634f36c4669afb, type: 3}
-  m_Name: MapNode1.3
+  m_Script: {fileID: 11500000, guid: 9fc8b9005ed04be4cbf428e1e911353a, type: 3}
+  m_Name: MapNode3.2
   m_EditorClassIdentifier: 
   Settings:
     Identifier:
-      Path: Resources/DB/MapNode1.3
+      Path: Resources/DB/MapNode3.2
       Guid:
-        Value: 2386776063125606296
-    Name: 1.3
+        Value: 241368902848100397
+    Name: 3.2
     NextNodes: []
+    IsFirstNode: 0

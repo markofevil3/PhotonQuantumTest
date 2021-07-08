@@ -18,7 +18,7 @@ using Quantum.Prototypes;
 using Quantum.Task;
 
 // Core/Collision.cs
-﻿
+ 
 namespace Quantum {
   
   /// <summary>

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fc8b9005ed04be4cbf428e1e911353a, type: 3}
-  m_Name: MapNode2.1
+  m_Name: MapNode3.1
   m_EditorClassIdentifier: 
   Settings:
     Identifier:
-      Path: Resources/DB/MapNode2.1
+      Path: Resources/DB/MapNode3.1
       Guid:
-        Value: 2093608419410794054
-    Name: 2.1
+        Value: 1609787629615721163
+    Name: 3.1
     NextNodes:
     - Id:
-        Value: 2642697901939303877
+        Value: 241368902848100397
     IsFirstNode: 0

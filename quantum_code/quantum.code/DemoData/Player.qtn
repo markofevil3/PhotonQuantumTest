@@ -1,3 +1,16 @@
+#pragma max_players 20
+#define PLAYERS_MAX 20
+
 component PlayerLink {
 	player_ref PlayerRef;
+	entity_ref TargetMapNode;
+}
+
+struct BattlePlayer {
+	player_ref PlayerRef;
+  entity_ref TargetMapNode;
+}
+
+global {
+	array<BattlePlayer>[PLAYERS_MAX] Players;
 }
