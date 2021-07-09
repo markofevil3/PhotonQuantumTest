@@ -221,7 +221,7 @@ namespace Quantum {
 }
 
 // Core/Frame.cs
-﻿
+ 
 namespace Quantum {
   /// <summary>
   /// The user implementation of <see cref="FrameBase"/> that resides in the project quantum_state and has access to all user relevant classes.

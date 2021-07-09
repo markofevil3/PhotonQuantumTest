@@ -59,7 +59,7 @@ MonoBehaviour:
     Priority: 50
     AvoidanceLayer: 0
     AvoidanceMask:
-      BitMask: -1
+      BitMask: 55
     OverrideRadiusForAvoidance: 0
     AvoidanceRadius:
       RawValue: 32768

@@ -3,14 +3,23 @@ using ExitGames.Client.Photon;
 using Photon.Realtime;
 using UnityEngine;
 using System.Collections;
+using Quantum;
+using Quantum.Demo;
 using UnityEngine.SceneManagement;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class MatchMakingManager : MonoBehaviour, IConnectionCallbacks, IMatchmakingCallbacks, IInRoomCallbacks, IOnEventCallback  {
+  
+  [SerializeField] private RuntimeConfigContainer _runtimeConfigContainer;
+
   public QuantumLoadBalancingClient Client;
   private EnterRoomParams _enterRoomParams;
 
   public static MatchMakingManager Instance;
+  
+  public enum PhotonEventCode : byte {
+    StartGame = 110
+  }
   
   private void Awake() {
     DontDestroyOnLoad(this);
@@ -106,12 +115,38 @@ public class MatchMakingManager : MonoBehaviour, IConnectionCallbacks, IMatchmak
   public void OnPlayerEnteredRoom(Player newPlayer) {
     Debug.Log($"==OnPlayerEnteredRoom==newPlayer {newPlayer.NickName} PlayerCount {Client.CurrentRoom.PlayerCount}");
     if (Client.CurrentRoom.PlayerCount >= 2) {
-      StartGame();
+      // Room master will send start game message to everyone
+      if (Client.LocalPlayer.IsMasterClient) {
+        bool success = Client.OpRaiseEvent((byte)UIMain.PhotonEventCode.StartGame, null,
+                                           new RaiseEventOptions {Receivers = ReceiverGroup.All}, SendOptions.SendReliable);
+        if (!success) {
+          Debug.LogError($"Failed to send start game event");
+        }
+      }
     }
   }
 
   private void StartGame() {
-    SceneManager.LoadScene("BattleScene");
+    // SceneManager.LoadScene("BattleScene");
+    var config = _runtimeConfigContainer != null ? RuntimeConfig.FromByteArray(RuntimeConfig.ToByteArray(_runtimeConfigContainer.Config)) : new RuntimeConfig();
+    
+    var param = new QuantumRunner.StartParameters {
+      RuntimeConfig       = config,
+      DeterministicConfig = DeterministicSessionConfigAsset.Instance.Config,
+      ReplayProvider      = null,
+      GameMode            = Photon.Deterministic.DeterministicGameMode.Multiplayer,
+      InitialFrame        = 0,
+      PlayerCount         = Client.CurrentRoom.MaxPlayers,
+      LocalPlayerCount    = 1,
+      RecordingFlags      = RecordingFlags.None,
+      NetworkClient       = Client
+    };
+
+    Debug.Log($"Starting QuantumRunner with map guid '{config.Map.Id}'");
+
+    // Joining with the same client id will result in the same quantum player slot which is important for reconnecting.
+    var clientId = ClientIdProvider.CreateClientId(ClientIdProvider.Type.NewGuid, Client);
+    QuantumRunner.StartGame(clientId, param);
   }
 
   public void OnPlayerLeftRoom(Player otherPlayer) {
@@ -131,6 +166,10 @@ public class MatchMakingManager : MonoBehaviour, IConnectionCallbacks, IMatchmak
   }
 
   public void OnEvent(EventData photonEvent) {
-    Debug.Log($"==OnEvent==photonEvent {photonEvent.Code} photonEvent.Sender {photonEvent.Sender} {photonEvent.Parameters}");
+    switch (photonEvent.Code) {
+      case (byte)UIMain.PhotonEventCode.StartGame:
+        StartGame();
+        break;
+    }
   }
 }

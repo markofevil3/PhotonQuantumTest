@@ -234,7 +234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Prototype:
     PlayerRef:
-      _index: 1
+      _index: 0
     TargetMapNode: {fileID: 0}
 --- !u!1001 &6103915953005635729
 PrefabInstance:

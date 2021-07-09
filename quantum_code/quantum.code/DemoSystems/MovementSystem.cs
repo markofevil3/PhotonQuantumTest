@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using Photon.Deterministic;
-using UnityEngine;
 
 namespace Quantum {
   public unsafe class MovementSystem : SystemMainThreadFilter<MovementSystem.Filter>, ISignalOnPlayerDataSet {
@@ -18,7 +17,6 @@ namespace Quantum {
       BattlePlayer* battlePlayer = f.Global -> Players.GetPointer(filter.PlayerLink->PlayerRef);
       var spawnTransform = f.Get<Transform3D>(battlePlayer->TargetMapNode);
       var dir=(spawnTransform.Position - filter.Transform->Position).Normalized;
-      Debug.Log("move == " + FPVector3.Distance(filter.Transform->Position, spawnTransform.Position));
       // If reach destination -> continue to next one
       if (FPVector3.Distance(filter.Transform -> Position, spawnTransform.Position) < 1) {
         MapNode mapNode = f.Get<MapNode>(battlePlayer->TargetMapNode);
@@ -27,8 +25,10 @@ namespace Quantum {
           battlePlayer -> TargetMapNode = mapNode.NextNodes[0];
         }
       } else {
-        filter.KCC->Move(f, filter.Entity, dir * speed * f.DeltaTime);
-        filter.Transform -> Rotation = FPQuaternion.LookRotation(dir);
+        filter.KCC->Move(f, filter.Entity, (dir * speed * f.DeltaTime));
+        // Keep player look straight
+        dir.Y = 1;
+        filter.Transform -> Rotation = FPQuaternion.SimpleLookAt(dir);
       }
     }
 
@@ -49,7 +49,6 @@ namespace Quantum {
         }
       }
       var index = f.RNG->Next(0, spawnableMapNode.Count);
-      Debug.Log($"spawnableMapNode== {spawnableMapNode.Count} index {index}");
 
       var spawnTransform = f.Get<Transform3D>(spawnableMapNode[index].Entity);
       f.Unsafe.GetPointer<Transform3D>(characterRef)->Position = spawnTransform.Position;

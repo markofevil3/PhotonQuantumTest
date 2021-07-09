@@ -3,10 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Quantum.Utils;
 
 namespace Quantum {
   public static class SystemSetup {
     public static SystemBase[] CreateSystems(RuntimeConfig gameConfig, SimulationConfig simulationConfig) {
+      UnitySystemConsoleRedirector.Redirect();
       return new SystemBase[] {
         // pre-defined core systems
         new Core.CullingSystem2D(), 
