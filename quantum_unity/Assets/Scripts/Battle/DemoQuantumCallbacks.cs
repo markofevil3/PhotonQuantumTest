@@ -11,6 +11,7 @@ public class DemoQuantumCallbacks : QuantumCallbacks {
 
     foreach (var lp in game.GetLocalPlayers()) {
       Debug.Log("CustomCallbacks - sending player: " + lp);
+      PlayerData.PlayerName = MatchMakingManager.Instance.Client.LocalPlayer.NickName;
       game.SendPlayerData(lp, PlayerData);
     }
   }

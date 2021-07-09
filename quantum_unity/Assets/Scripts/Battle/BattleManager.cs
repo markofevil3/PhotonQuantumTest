@@ -12,7 +12,6 @@ public class BattleManager : MonoBehaviour, IConnectionCallbacks {
     // TESTCODE: assign player to character
     int count = 0;
     foreach (var player in MatchMakingManager.Instance.Client.CurrentRoom.Players) {
-      _characterViews[count].Init(player.Value);
       count++;
     }
   }

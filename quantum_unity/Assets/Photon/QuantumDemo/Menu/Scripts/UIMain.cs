@@ -9,7 +9,8 @@ namespace Quantum.Demo {
     public GameObject LogoHorizontal;
 
     public enum PhotonEventCode : byte {
-      StartGame = 110
+      GameStartCountDown = 110,
+      StartGame = 111,
     }
 
     private void Update() {

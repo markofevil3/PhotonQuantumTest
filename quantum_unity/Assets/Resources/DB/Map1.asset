@@ -402,7 +402,7 @@ MonoBehaviour:
         Id:
           Value: 241368902848100397
       NextNodes:
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 7
       - SceneIndexPlusOne: 0
       Occupied:
         Value: 0

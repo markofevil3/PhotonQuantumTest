@@ -28,8 +28,8 @@ namespace Quantum {
         // filter.KCC->Move(f, filter.Entity, (dir * speed * f.DeltaTime));
         filter.Transform -> Position += (dir * speed * f.DeltaTime);
         // Keep player look straight
-        dir.Y = 1;
-        filter.Transform -> Rotation = FPQuaternion.SimpleLookAt(dir);
+        // dir.Y = 1;
+        filter.Transform -> Rotation = FPQuaternion.LookRotation(dir);
       }
     }
 

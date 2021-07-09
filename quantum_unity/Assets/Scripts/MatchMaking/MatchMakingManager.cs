@@ -117,14 +117,29 @@ public class MatchMakingManager : MonoBehaviour, IConnectionCallbacks, IMatchmak
     Debug.Log($"==OnPlayerEnteredRoom==newPlayer {newPlayer.NickName} PlayerCount {Client.CurrentRoom.PlayerCount}");
     if (Client.CurrentRoom.PlayerCount >= 2) {
       // Room master will send start game message to everyone
-      if (Client.LocalPlayer.IsMasterClient) {
-        bool success = Client.OpRaiseEvent((byte)UIMain.PhotonEventCode.StartGame, null,
-                                           new RaiseEventOptions {Receivers = ReceiverGroup.All}, SendOptions.SendReliable);
-        if (!success) {
-          Debug.LogError($"Failed to send start game event");
-        }
+      if (Client.LocalPlayer.IsMasterClient && !IsInvoking("BattleStartCountdown")) {
+        countdown = 10;
+        InvokeRepeating("BattleStartCountdown", 1f, 1f);
       }
     }
+  }
+
+  private int countdown;
+  
+  private void BattleStartCountdown() {
+    if (countdown > 0) {
+      bool success = Client.OpRaiseEvent((byte)UIMain.PhotonEventCode.GameStartCountDown, countdown,
+                                         new RaiseEventOptions {Receivers = ReceiverGroup.All}, SendOptions.SendReliable);
+      countdown--;
+    } else {
+      CancelInvoke("BattleStartCountdown");
+      bool success = Client.OpRaiseEvent((byte)UIMain.PhotonEventCode.StartGame, null,
+                                         new RaiseEventOptions {Receivers = ReceiverGroup.All}, SendOptions.SendReliable);
+      if (!success) {
+        Debug.LogError($"Failed to send start game event");
+      }
+    }
+
   }
 
   private void StartGame() {
