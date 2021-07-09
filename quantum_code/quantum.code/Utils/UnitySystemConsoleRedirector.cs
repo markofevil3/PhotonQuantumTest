@@ -11,15 +11,17 @@ namespace Quantum.Utils {
   /// <author>
   /// Jackson Dunstan, http://jacksondunstan.com/articles/2986
   /// </author>
-  public static class UnitySystemConsoleRedirector
-  {
+  public static class UnitySystemConsoleRedirector {
+
+    public static Action<string> OnDebug;
+    
     private class UnityTextWriter : TextWriter
     {
       private StringBuilder buffer = new StringBuilder();
  
       public override void Flush()
       {
-        // Debug.Log(buffer.ToString());
+        OnDebug?.Invoke(buffer.ToString());
         buffer.Length = 0;
       }
  

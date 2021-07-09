@@ -264,7 +264,7 @@ MonoBehaviour:
     Transform3D:
     - Position:
         X:
-          RawValue: -1273364
+          RawValue: -740556
         Y:
           RawValue: 0
         Z:
@@ -282,7 +282,7 @@ MonoBehaviour:
         Id:
           Value: 2642697901939303877
       NextNodes:
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 4
       - SceneIndexPlusOne: 0
       Occupied:
         Value: 0
@@ -304,11 +304,11 @@ MonoBehaviour:
     Transform3D:
     - Position:
         X:
-          RawValue: -444334
+          RawValue: 214958
         Y:
           RawValue: 0
         Z:
-          RawValue: 972554
+          RawValue: -1343488
       Rotation:
         X:
           RawValue: 0

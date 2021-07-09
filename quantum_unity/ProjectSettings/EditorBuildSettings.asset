@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BattleScene.unity
     guid: 268656de05cb2874aa3ca094153197a2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Photon/QuantumDemo/Menu/Menu.unity
     guid: cc502d8c93eb40943b652c72000036d6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Photon/QuantumDemo/Menu/MenuAuto.unity
     guid: 45efb823fdbe27d4490138c728a24ba8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Photon/QuantumDemo/Game/Game.unity
     guid: 03bd5ba32b9950244a08f22579187d8b
   m_configObjects:

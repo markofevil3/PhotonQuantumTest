@@ -11,20 +11,21 @@ namespace Quantum {
       public PlayerLink* PlayerLink;
     }
 
-    Int32 speed = 3;
+    Int32 speed = 1;
     
     public override void Update(Frame f, ref Filter filter) {
       BattlePlayer* battlePlayer = f.Global -> Players.GetPointer(filter.PlayerLink->PlayerRef);
       var spawnTransform = f.Get<Transform3D>(battlePlayer->TargetMapNode);
-      var dir=(spawnTransform.Position - filter.Transform->Position).Normalized;
       // If reach destination -> continue to next one
       if (FPVector3.Distance(filter.Transform -> Position, spawnTransform.Position) < 1) {
         MapNode mapNode = f.Get<MapNode>(battlePlayer->TargetMapNode);
         MapNodeSpec mapNodeSpec = f.FindAsset<MapNodeSpec>(mapNode.Spec.Id);
         if (mapNodeSpec != null && mapNodeSpec.NextNodes.Length > 0 && mapNodeSpec.NextNodes[0] != null) {
+          Console.WriteLine("Change node=== " + mapNode.NextNodes[0]);
           battlePlayer -> TargetMapNode = mapNode.NextNodes[0];
         }
       } else {
+        var dir=(spawnTransform.Position - filter.Transform->Position).Normalized;
         filter.KCC->Move(f, filter.Entity, (dir * speed * f.DeltaTime));
         // Keep player look straight
         dir.Y = 1;

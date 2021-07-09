@@ -5,6 +5,7 @@ using UnityEngine;
 using System.Collections;
 using Quantum;
 using Quantum.Demo;
+using Quantum.Utils;
 using UnityEngine.SceneManagement;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 

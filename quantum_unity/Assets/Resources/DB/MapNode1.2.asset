@@ -18,5 +18,7 @@ MonoBehaviour:
       Guid:
         Value: 4346420965781827115
     Name: 1.2
-    NextNodes: []
+    NextNodes:
+    - Id:
+        Value: 3350443731313001110
     IsFirstNode: 0
