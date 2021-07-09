@@ -466,7 +466,7 @@ fabric.properties
 ## Quantum gitignore additions for Visual Studio temporary files
 ##
 ##
-quantum.code/Core/CodeGen.cs
+#quantum.code/Core/CodeGen.cs
 !quantum.console.spectator/libs/[Dd]ebug
 !quantum.console.spectator/libs/[Rr]elease
 !quantum.console.spectator/libs/**/*.pdb

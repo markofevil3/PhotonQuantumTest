@@ -78,7 +78,7 @@ crashlytics-build.properties
 nuget.config
 
 # Comment the following lines if you want to make your project start-able for e.g. designers and artists with out having to compile the Quantum code
-Assets/Photon/Quantum/Assemblies/PhotonDeterministic.*
-Assets/Photon/Quantum/Assemblies/quantum.core.*
-Assets/Photon/Quantum/Assemblies/quantum.code.*
-Assets/Photon/Quantum/Generated
+#Assets/Photon/Quantum/Assemblies/PhotonDeterministic.*
+#Assets/Photon/Quantum/Assemblies/quantum.core.*
+#Assets/Photon/Quantum/Assemblies/quantum.code.*
+#Assets/Photon/Quantum/Generated
