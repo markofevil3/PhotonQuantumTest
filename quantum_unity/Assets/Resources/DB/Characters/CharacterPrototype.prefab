@@ -219,7 +219,7 @@ MonoBehaviour:
   Prototype:
     Config:
       Id:
-        Value: 0
+        Value: 4
 --- !u!114 &4289639999200736152
 MonoBehaviour:
   m_ObjectHideFlags: 0
