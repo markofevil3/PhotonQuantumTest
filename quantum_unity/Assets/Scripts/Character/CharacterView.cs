@@ -25,6 +25,7 @@ public class CharacterView : MonoBehaviour {
       _playerName.color = _enemyColor;
     } else {
       _playerName.color = _myColor;
+      VirtualCameraManager.Instance.SetFollowTarget(transform);
     }
     _characterAnimator.SetBool("IsGrounded", true);
   }

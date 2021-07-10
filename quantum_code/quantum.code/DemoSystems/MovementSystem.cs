@@ -29,7 +29,9 @@ namespace Quantum {
         filter.Transform -> Position += (dir * speed * f.DeltaTime);
         // Keep player look straight
         // dir.Y = 1;
-        filter.Transform -> Rotation = FPQuaternion.LookRotation(dir);
+        var q = FPQuaternion.LookRotation(dir);
+
+        filter.Transform -> Rotation = FPQuaternion.RotateTowards(filter.Transform->Rotation, q, 300 * f.DeltaTime);
       }
     }
 
