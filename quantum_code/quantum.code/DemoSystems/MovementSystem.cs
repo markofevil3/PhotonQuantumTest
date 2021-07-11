@@ -18,11 +18,13 @@ namespace Quantum {
       var spawnTransform = f.Get<Transform3D>(battlePlayer->TargetMapNode);
       // If reach destination -> continue to next one
       if (FPVector3.Distance(filter.Transform -> Position, spawnTransform.Position) < 1) {
-        MapNode mapNode = f.Get<MapNode>(battlePlayer->TargetMapNode);
-        MapNodeSpec mapNodeSpec = f.FindAsset<MapNodeSpec>(mapNode.Spec.Id);
-        if (mapNodeSpec != null && mapNodeSpec.NextNodes.Length > 0 && mapNodeSpec.NextNodes[0] != null) {
-          battlePlayer -> TargetMapNode = mapNode.NextNodes[0];
-        }
+        // MapNode mapNode = f.Get<MapNode>(battlePlayer->TargetMapNode);
+        // MapNodeSpec mapNodeSpec = f.FindAsset<MapNodeSpec>(mapNode.Spec.Id);
+        // if (mapNodeSpec != null && mapNodeSpec.NextNodes.Length > 0 && mapNodeSpec.NextNodes[0] != null) {
+        //   battlePlayer -> TargetMapNode = mapNode.NextNodes[0];
+        // }
+        // When player reach node -> wait for input to select new node
+        battlePlayer -> ReachedNode = true;
       } else {
         var dir=(spawnTransform.Position - filter.Transform->Position).Normalized;
         // filter.KCC->Move(f, filter.Entity, (dir * speed * f.DeltaTime));

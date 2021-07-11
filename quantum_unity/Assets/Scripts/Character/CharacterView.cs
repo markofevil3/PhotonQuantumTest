@@ -13,14 +13,15 @@ public class CharacterView : MonoBehaviour {
   private Player _player;
   private Color _enemyColor = Color.red;
   private Color _myColor = Color.blue;
+  private PlayerRef _thisPlayer;
 
   void Start() {
     var f = QuantumRunner.Default.Game.Frames.Verified;
-    var player = f.Get<PlayerLink>(_entityView.EntityRef).PlayerRef;
+    _thisPlayer = f.Get<PlayerLink>(_entityView.EntityRef).PlayerRef;
 
-    _playerName.text = f.GetPlayerData(player).PlayerName;
+    _playerName.text = f.GetPlayerData(_thisPlayer).PlayerName;
 
-    if (QuantumRunner.Default.Game.PlayerIsLocal(player) == false)
+    if (QuantumRunner.Default.Game.PlayerIsLocal(_thisPlayer) == false)
     {
       _playerName.color = _enemyColor;
     } else {
@@ -30,8 +31,23 @@ public class CharacterView : MonoBehaviour {
     _characterAnimator.SetBool("IsGrounded", true);
   }
 
-  void Update() {
+  unsafe void Update() {
+    if (QuantumRunner.Default == null ||
+        QuantumRunner.Default.Game.Frames.Verified == null) {
+      return;
+    }
+
     var f = QuantumRunner.Default.Game.Frames.Verified;
-    _characterAnimator.SetFloat("VelocityX", 1f);
+
+    for (int i = 0; i < f.Global -> Players.Length; i++) {
+      BattlePlayer player = f.Global -> Players[i];
+      if (player.PlayerRef == _thisPlayer) {
+        if (player.ReachedNode) {
+          _characterAnimator.SetFloat("VelocityX", 0);
+        } else {
+          _characterAnimator.SetFloat("VelocityX", 1f);
+        }
+      }
+    }
   }
 }

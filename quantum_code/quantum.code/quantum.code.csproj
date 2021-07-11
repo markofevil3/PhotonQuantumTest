@@ -62,7 +62,9 @@
     <Compile Include="Core\CodeGen.cs" />
     <Compile Include="CommandSetup.cs" />
     <Compile Include="Core\Core.cs" />
+    <Compile Include="DemoCommands\ChooseMapNodeCommand.cs" />
     <Compile Include="DemoSpec\MapNodeSpec.cs" />
+    <Compile Include="DemoSystems\ChooseMapNodeCommandSystem.cs" />
     <Compile Include="DemoSystems\MapNodeSystem.cs" />
     <Compile Include="DemoSystems\MovementSystem.cs" />
     <Compile Include="Frame.User.cs" />

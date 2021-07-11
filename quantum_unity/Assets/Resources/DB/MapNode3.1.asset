@@ -21,4 +21,6 @@ MonoBehaviour:
     NextNodes:
     - Id:
         Value: 241368902848100397
+    - Id:
+        Value: 2290168940796569664
     IsFirstNode: 0

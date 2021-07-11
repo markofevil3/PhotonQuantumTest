@@ -379,12 +379,15 @@ namespace Quantum {
     public const Int32 ALIGNMENT = 8;
     [FieldOffset(0)]
     public PlayerRef PlayerRef;
+    [FieldOffset(4)]
+    public QBoolean ReachedNode;
     [FieldOffset(8)]
     public EntityRef TargetMapNode;
     public override Int32 GetHashCode() {
       unchecked { 
         var hash = 67;
         hash = hash * 31 + PlayerRef.GetHashCode();
+        hash = hash * 31 + ReachedNode.GetHashCode();
         hash = hash * 31 + TargetMapNode.GetHashCode();
         return hash;
       }
@@ -392,6 +395,7 @@ namespace Quantum {
     public static void Serialize(void* ptr, FrameSerializer serializer) {
         var p = (BattlePlayer*)ptr;
         PlayerRef.Serialize(&p->PlayerRef, serializer);
+        QBoolean.Serialize(&p->ReachedNode, serializer);
         EntityRef.Serialize(&p->TargetMapNode, serializer);
     }
   }
@@ -750,9 +754,11 @@ namespace Quantum.Prototypes {
   public unsafe sealed partial class BattlePlayer_Prototype : IPrototype {
     public PlayerRef PlayerRef;
     public MapEntityId TargetMapNode;
+    public QBoolean ReachedNode;
     partial void MaterializeUser(Frame frame, ref BattlePlayer result, in PrototypeMaterializationContext context);
     public void Materialize(Frame frame, ref BattlePlayer result, in PrototypeMaterializationContext context) {
       result.PlayerRef = this.PlayerRef;
+      result.ReachedNode = this.ReachedNode;
       result.TargetMapNode = default;
       MaterializeUser(frame, ref result, in context);
     }

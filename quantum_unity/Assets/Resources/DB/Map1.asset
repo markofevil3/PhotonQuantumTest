@@ -83,7 +83,7 @@ MonoBehaviour:
           Value: 3350443731313001110
       NextNodes:
       - SceneIndexPlusOne: 2
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 3
       Occupied:
         Value: 0
     PlayerLink: []
@@ -123,7 +123,7 @@ MonoBehaviour:
           Value: 1462208787029446997
       NextNodes:
       - SceneIndexPlusOne: 3
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 1
       Occupied:
         Value: 0
     PlayerLink: []
@@ -163,7 +163,7 @@ MonoBehaviour:
           Value: 4346420965781827115
       NextNodes:
       - SceneIndexPlusOne: 1
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 2
       Occupied:
         Value: 0
     PlayerLink: []
@@ -203,7 +203,7 @@ MonoBehaviour:
           Value: 2765662471242665950
       NextNodes:
       - SceneIndexPlusOne: 5
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 6
       Occupied:
         Value: 0
     PlayerLink: []
@@ -243,7 +243,7 @@ MonoBehaviour:
           Value: 2093608419410794054
       NextNodes:
       - SceneIndexPlusOne: 6
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 4
       Occupied:
         Value: 0
     PlayerLink: []
@@ -283,7 +283,7 @@ MonoBehaviour:
           Value: 2642697901939303877
       NextNodes:
       - SceneIndexPlusOne: 4
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 5
       Occupied:
         Value: 0
     PlayerLink: []
@@ -323,7 +323,7 @@ MonoBehaviour:
           Value: 2290168940796569664
       NextNodes:
       - SceneIndexPlusOne: 8
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 9
       Occupied:
         Value: 0
     PlayerLink: []
@@ -363,7 +363,7 @@ MonoBehaviour:
           Value: 1609787629615721163
       NextNodes:
       - SceneIndexPlusOne: 9
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 7
       Occupied:
         Value: 0
     PlayerLink: []
@@ -403,7 +403,7 @@ MonoBehaviour:
           Value: 241368902848100397
       NextNodes:
       - SceneIndexPlusOne: 7
-      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 8
       Occupied:
         Value: 0
     PlayerLink: []

@@ -6,6 +6,7 @@ namespace Quantum {
       return new DeterministicCommand[] {
 
         // user commands go here
+        new ChooseMapNodeCommand()
       };
     }
   }
